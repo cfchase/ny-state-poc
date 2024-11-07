@@ -1,8 +1,62 @@
 version: 3
-domain: government budget
+domain: government finance
 created_by: cfchase
-document_outline: ''
-seed_examples: []
+document_outline: |
+  Capital spending and debt measures projected from FY 2025 through FY 2029.
+seed_examples:
+  - context: >
+      ## 2024-25 State Aid Projections
+      
+      ## Preliminary Estimate of 2023-24 and 2024-25 State Aids Payable under Section 3609 plus Other Aids
+      
+      ## COMBINED AIDS
+      
+      2023-24 Base Year Aids:
+      
+      For 2023-24 Aid, the Actual Valuation (AV) of taxable real property for purposes of determining a district's property wealth per pupil is defined as the 2020 AV. For aid other than Foundation Aid, the State average of the 2020 AV per 2021-22 Total Wealth Pupil Unit (TWPU) is $843,800. Income wealth is based on 2020 Adjusted Gross Income of residents of the district, as reported on tax returns and including the results of the statewide computerized income verification process, divided by the TWPU of the district. This is compared to the State average of $268,300. The AV and Income Wealth ratios are used equally to compute the district's Combined Wealth Ratio (CWR). Some formulas use the Resident Weighted Average Daily Attendance (RWADA) wealth ratio; the State average 2020 AV per 2021-22 RWADA is $1,057,200. Transportation Aid uses the Enrollment (Resident Public and Nonpublic Enrollment) wealth ratio; the State average is $930,600. For Foundation Aid, Selected AV is the lesser of 2020 AV or the average of 2020 AV and 2019 AV.
+      
+      Foundation Aid: The 2023-24 Foundation Aid is equal to the 2022-23 Foundation Aid base plus the greater of: (A) a 100 percent phase-in increase, or (B) a 3 percent minimum increase.
+      
+      A. 100 percent phase-in increase. The 100 percent phase-in provides additional Foundation Aid for districts not yet receiving Total Foundation Aid. The value is equal to 100 percent of the positive difference between Total Foundation Aid and the 2022-23 Foundation Aid base.
+      
+      B. 3 percent minimum increase. The 3 percent minimum ensures that no district receives an increase less than 3 percent of the 2022-23 Foundation Aid base.
+      
+      Selected Foundation Aid is the greater of $500 or Formula Foundation Aid or Alternate Foundation Aid. Formula Foundation Aid is the positive result of (a) the district adjusted foundation amount which is the basic foundation amount for 2023-24 ($7,242) multiplied by the consumer price index (1.0800) multiplied by a phase-in foundation percent (1.0000) multiplied by a Regional Cost Index (RCI) multiplied by a Pupil Need Index (PNI) less (b) an expected minimum local contribution. Alternate Foundation Aid is the result of the State Sharing Ratio (SSR) for Foundation Aid multiplied by the district-adjusted foundation amount. The Selected TAFPU is based on Average Daily Membership (ADM) including dual enrollment plus additional weightings for: students with disabilities (including dual
+      
+      enrolled SWD) at 1.41, summer school at 0.12 and declassification pupils at 0.50. The PNI is 1 plus the Extraordinary Needs percent (based on economic disadvantage, English language learners and sparsity) and ranges between 1 and 2. The expected minimum local contribution is the product of Selected Actual Value per 2021-22 Total Wealth Foundation Pupil Units (TWFPU) and 0.0151 multiplied by the Income Wealth Index (which ranges from 0.65 to 2.0). TWFPU is based on ADM and eliminates additional weightings. The SSR for Foundation Aid is the highest of the following formulas. For high need/resource-capacity districts, the SSR is multiplied by 1.05. It is not less than zero nor more than 0.90:
+      
+      (2) Ratio = 1.00 - (0.64 * FACWR);
+      
+      (1) Ratio = 1.37- (1.23 * FACWR);
+      
+      (3) Ratio = 0.80 - (0.39 * FACWR);
+      
+      (4) Ratio = 0.51 - (0.173 * FACWR).
+      
+      The Combined Wealth Ratio for Foundation Aid (FACWR) is calculated as: (A) 0.5 multiplied by the district Selected Actual Valuation/2021-22 TWPU compared to the State average of $826,600; plus, (B) 0.5 multiplied by the district Selected Income/2021-22 TWPU compared to the State average of $263,900. For Foundation Aid, Selected AV is the lesser of 2020 AV or the average of 2020 AV and 2019 AV. Selected Income is the lesser of 2020 Income or the average of 2020 Income and 2019 Income.
+      
+      Full Day K Conversion: Districts with any half-day kindergarten or no kindergarten programs in 1996-97 and in the base year are eligible for Full Day K Conversion Aid equal to Selected Foundation Aid per Selected TAFPU multiplied by the increase in full day kindergarten enrollment in the current year over the prior year. School districts must offer full day programs to all kindergarten students in order to qualify for this aid. Starting in 2014-15, a district is not eligible if it received Full Day K Conversion Aid in the past.
+      
+      Universal Pre-kindergarten: A district will be eligible for Universal Pre-kindergarten Aid in 2023-24 up to the maximum allocation for the prior school year and a new $100 million UPK expansion grant for the 2023-24 school year. Statewide Universal Full-day Prekindergarten (awarded 2014), the 2021-22 federal UPK expansion grant, the 2021-22 federal SUFDPK expansion grant, and both rounds of the 2022-23 state SUFPDK expansion grant are included for purposes of this data release. For the 2023-24 school year, Universal Pre-kindergarten aid is displayed as the amount for which a district is eligible and has applied.
+      
+      BOCES: BOCES Aid for administrative, shared services, rental and capital expenditures, plus Aid Due Save-harmless. Approved expenditure for BOCES Administrative and Shared Services Aids is based on a salary limit of $30,000. Aid is based on approved 2022-23 administrative and service expenditures and the higher of the millage ratio or the Current AV/2021-22 RWADA Aid Ratio: (1 - (0.51 * RWADA Wealth Ratio)) with a 0.36 minimum and 0.90 maximum. Rent and Capital Aids
+      
+      are based on 2023-24 expenditures multiplied by the Current AV/RWADA Aid ratio with a 0.00 minimum and a 0.90 maximum. Payable Aid is the sum of these aids including save-harmless.
+      
+      Special Services: Special Services Aid, for non-components of BOCES including the Big 5 City school districts, is the sum of Career Education Aid, Academic Improvement Aid and Computer Administration Aid. Career Education Aid equals the Aid Ratio (1 - (0.59 * CWR), with a 0.36 minimum) multiplied by $3,900 multiplied by the 2022-23 Career Education pupils including the pupils in business and marketing sequences weighted at 0.16. Academic Improvement Aid equals the Aid Ratio (1 (0.59 * CWR), with a 0.36 minimum) multiplied by $100 plus $1,000/CWR, with a minimum of $1,000, multiplied by the 2022-23 Career Education pupils including the pupils in business and marketing sequences weighted at 0.16. Computer Administration Aid equals the Aid Ratio (1 - (0.51 * CWR), with a 0.30 minimum) multiplied by approved expenditures not to exceed the maximum of $62.30 multiplied by the estimated 2022-23 public school enrollment by district of attendance with half-day kindergarten weighted at 1.0.
+      
+      High Cost Excess Cost: High Cost expenditures, for students with disabilities attending public schools or BOCES, must exceed the lesser of $10,000 or four times district 2021-22 Approved Operating Expenditure/TAPU for Expenditure. The aid per pupil equals the allowed expenditure times the Aid Ratio (1 - (0.51 * CWR), with a 0.25 minimum).
+      
+      Private Excess Cost: Private Excess Cost Aid is for public school students attending private schools for students with disabilities. Net tuition expenditure is multiplied by the Aid Ratio (1 - (0.15 * CWR), with a 0.5 minimum).
+      
+      Hardware & Technology: Instructional Computer Hardware and Technology Equipment Aid is equal to the lesser of 2022-23 expenditures or the enrollment for Software Aid (see below) multiplied by $24.20 times the Current AV/RWADA Aid Ratio. For the purpose of this estimate, the maximum aid is shown (enrollment for Software Aid multiplied by $24.20 times the Current AV/RWADA Aid Ratio).
+      
+      Software, Library, Textbook: All three aids use 2022-23 expenditures and pupil counts. The maximum Software Aid equals $14.98 per pupil and the maximum Library Materials Aid equals $6.25 per pupil, each multiplied by the combined 2022-23 public plus nonpublic enrollment for pupils attending school in the district plus district pupils attending full time BOCES and private school programs for students with disabilities plus pupils attending the State operated schools at Rome and Batavia and resident pupils placed in Special Act school districts. Aid cannot exceed approved or designated expenditures. Textbook Aid equals $43.25 per pupil for Regular Textbook Aid plus $15 per pupil for Lottery Textbook Aid multiplied by resident public plus resident nonpublic enrollment plus resident pupils with disabilities attending approved private schools or the State operated schools at
+    questions_and_answers:
+      - question: >
+          What is Selected Foundation Aid?
+        answer: >
+          Selected Foundation Aid is the greater of $500 or Formula Foundation Aid or Alternate Foundation Aid.
 document:
   repo: 'file:///home/cloud-user/ny-state-poc'
   commit:

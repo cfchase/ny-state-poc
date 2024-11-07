@@ -1,8 +1,43 @@
 version: 3
-domain: government poloicies
+domain: NY State Policies
 created_by: cfchase
-document_outline: ''
-seed_examples: []
+document_outline: |
+  The New York State Office of Information Technology Services (ITS) policies and standards for technology use.
+seed_examples:
+  - context: >
+      4.3 Device Replacement In the event that a device fails, the device will be repaired or replaced at the discretion
+      of ITS. If a device is replaced, the replacement device will be materially similar in function and may be new, 
+      used, or refurbished.
+      
+      Client Agency funded devices, supported by ITS, which are replaced outside of a warranty period must be funded by the Client Agency.
+      
+      4.4 Lost or Stolen Devices In the event a device is lost, stolen, or otherwise unreturnable, the user or the 
+      user’s supervisor must immediately notify ITS and their agency. ITS will confirm data encryption and update the 
+      statewide inventory, noting the device’s status. The user must also consult their agency’s Chief Legal Counsel 
+      regarding their agency’s legal obligations related to a lost or stolen device, as well as compliance with the 
+      Office of the State Comptroller’s Guide to Financial Operations Chapter XII.10.E – Reporting the Theft, Loss 
+      or Misuse of State Assets, if applicable. ITS does not report a Client Agency’s lost or stolen device to the 
+      Office of the State Comptroller.
+      
+      4.5 Compromised Devices If a device is potentially compromised, the user or other custodian must notify the 
+      agency’s Chief Legal Counsel to arrange return. It is the responsibility of the Client Agency to attempt 
+      recovery of the device and notify ITS to arrange return to ITS. ITS will confirm data encryption and update 
+      the statewide inventory, noting the device’s status. A compromised device is a device that was left outside 
+      of the care of the assigned user due to the death, incarceration, or other unusual circumstance leaving the 
+      user unable to return the device. 4.5 Device Management Devices issued to custodians must be managed by using
+      an ITS designated configuration management solution and joined to a designated directory service.
+      Issued devices are expected to be in active use. Devices which are powered down, disconnected from networks, 
+      or otherwise isolated from ITS management services for extended periods of time must be recorded as lost by the 
+      custodian, unless appropriate arrangements are made for storage when not in use.
+    questions_and_answers:
+      - question: >
+          What actions should an agency take if a state-issued laptop is lost or stolen?
+        answer: >
+          In the event a device is lost, stolen, or otherwise unreturnable, the user or the user’s supervisor must 
+          immediately notify ITS and their agency. The user must also consult their agency’s Chief Legal Counsel 
+          regarding their agency’s legal obligations related to a lost or stolen device, as well as compliance with the 
+          Office of the State Comptroller’s Guide to Financial Operations Chapter XII.10.E – Reporting the Theft, Loss
+          or Misuse of State Assets, if applicable.
 document:
   repo: 'file:///home/cloud-user/ny-state-poc'
   commit:
