@@ -1,0 +1,13 @@
+|-----------------------|-------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sanitization  Method  | Appropriate Use                                                         | Description                                                                                                                                                                                                     |
+| Clear                 | If the media will be reused and  will not be leaving the SE's  control. | Protects  confidentiality  of  information against an attack by  replacing written data  with  random data. Clearing must not  allow  information  to  be  retrieved by data, disk or file  recovery utilities. |
+| Purge                 | If the media will be reused and  leaving the SE's control.              | Protects  confidentiality  of  information against an attack  through either degaussing or  secure erase.                                                                                                       |
+| Physical  Destruction | If the media will not be reused at  all.                                | Intent is to completely destroy  the media.                                                                                                                                                                     |
+
+## **Sanitization Decision Process**
+
+The decision process is based on the confidentiality of the information, not the type of media. The SEs choose the type of sanitization to be used and the type of sanitization is approved by the Information Owner. The technique used may vary by media type and by the technology available to the custodian, so long as the requirements of the sanitization type are met. Recommended sanitization techniques for specific types of media are outlined in NIST 800-88, Rev. 1, Guidelines for Media Sanitization, Appendix A Minimum Sanitization Recommendations.
+
+Disposal without sanitization should be considered only if information disclosure would have no impact on organizational mission, would not result in damage to organizational assets, and would not result in financial loss or harm to any individuals.
+
+The classification of the information, along with internal environmental factors, should drive the decisions on how to deal with the media. The key is to first think in terms of information confidentiality, then apply considerations based on media type.

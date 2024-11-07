@@ -1,0 +1,24 @@
+|-----|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     | Token and Credential RenewallRe-issuance The CSP establishes suitable policies for renewal and re-issuance of tokens and credentials.                                                                       |
+| AAL | Standard                                                                                                                                                                                                    |
+|     | Documented policy and procedures for renewal and re-issuance of unexpired tokens and credentials must be established by the CSP. Proof of possession of unexpired token to the CSP by the user is required. |
+
+|---|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   | Passwords are only reissued, not renewed.                                                                                                                                                                                                                                                      |
+|   | Grace logons after expiration are allowed.                                                                                                                                                                                                                                                     |
+|   | Upon reissuance, token secrets shall not be set to defaults or reused in any manner .                                                                                                                                                                                                          |
+|   | When issuing electronically, all interactions shall occur over protected sessions such as SSLITLS.                                                                                                                                                                                             |
+| 2 | In addition to Level 1 requirements:                                                                                                                                                                                                                                                           |
+|   | After expiration of current token and any grace period, renewal or reissuance is not allowed without the user re-establishing their identity with the CSP .                                                                                                                                    |
+|   | In addition to Level 2 requirements:                                                                                                                                                                                                                                                           |
+|   | Sensitive data transfers shall be cryptographically authenticated using keys bound to the authentication process. All temporary or short-term keys derived during the original authentication operation shall expire and re-authentication shall be required after not more than 24 hours from |
+
+|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Token and                      | Credential Revocation and Destruction CSP revokes and maintains  the revocation status and destroys credentials as needed.                                                                                |
+| AAL                            | Standard                                                                                                                                                                                                  |
+| 2 24 hours after notification: | CSP establishes a process that allows for revocation of tokens and credentials within 72 hours after notification:. CSP establishes a process that allows for revocation of tokens and credentials within |
+|                                | CSP establishes a process that allows for revocation of credentials within 24 hours after notification.                                                                                                   |
+|                                | Token destruction to occur within 48 hours.                                                                                                                                                               |
+
+
+

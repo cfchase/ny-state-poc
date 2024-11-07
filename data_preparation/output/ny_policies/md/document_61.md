@@ -1,0 +1,7 @@
+## **How the standard process for de-activating inactive Office365 accounts will work**
+
+The May 2016 Inactive Mailbox Management Process is triggered when the owner (named user) of an email account has not sent email from the account for 30 days.
+
+A report listing these mailboxes is generated twice each month and sent to the agency's shared mailbox described above so that accounts can be reviewed by the agency designee(s) and be placed on legal hold, or otherwise maintained, if necessary.
+
+For 30 days, the user will continue to have access to the mailbox, it will continue to receive email, and email content will continue to be retained pursuant to any retention rules that are set within Office365. If a user sends email from his mailbox within these 30 days, the mailbox is no longer stale, and the account will be removed from the report and will not be scheduled for deletion. This 30-day period gives the agency sufficient time to make sure that, where necessary, the mailbox and its contents are maintained. For example, a user may be out on extended medical or other authorized leave, which explains why they have not accessed their mailbox for 30 days. If a user is on such a leave, the agency should enter a ticket in ITSM indicating a leave start and end date, and ITS will take an action to identify that the account is not considered stale during that identified time period.

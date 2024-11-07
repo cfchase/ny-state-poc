@@ -1,0 +1,13 @@
+"If during your visit to this website you complete a transaction such as a survey, registration, or order form, the information, including personal information, volunteered by you is used by the Agency to operate Agency programs, which include the provision of goods, services, and information. This information is collected by the Agency and may be disclosed by the Agency for those purposes that may be reasonably ascertained from the nature and terms of the survey, registration, or order form in which the information was submitted."
+
+"If during your visit to this website you place an order for a copy of a map, the Agency will request information from you on our order form. You must provide contact information, including your name and shipping address, and financial information, including your credit card number and its expiration date. This information is used to fill your order and for billing purposes. If there are difficulties in filling your order, the contact information may be used to get in touch with you."
+
+-or-
+
+"The Agency uses a third party to ship orders, and a credit card processing company to bill users for goods and services. [Specified personal information] is shared with these entities in order to complete the transaction. These entities are not permitted to use the personal information for any other purposes."
+
+## **4.4.3 Under what circumstances will the information collected be disclosed?**
+
+Identify the circumstances under which information, including personal information, collected will be disclosed. For example:
+
+"Collection of information through this website and the disclosure of that information are subject to the provisions of the Internet Security and Privacy Act. The Agency will not collect personal information through this website or disclose such information to any person, firm, partnership, corporation, limited liability company or other entity, including internal staff who do not need the information to perform their official duties, unless the user has consented to the collection or disclosure of such personal information. Voluntary disclosure of personal information to the Agency by the user constitutes consent to the collection and disclosure of the information by the Agency for the purposes for which the user disclosed the information to the Agency, as was reasonably ascertainable from the nature and terms of the disclosure.

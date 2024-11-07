@@ -1,0 +1,11 @@
+ITS may provide telecommuters the necessary equipment and software, within reason, to telecommute. ITS will not provide desks, chairs, file cabinets, or other office-related furniture. The use of an employee's personal device (for example, desktop, laptop, tablet, etc.) requires the use of Virtual Desktop Infrastructure (VDI), Virtual Private Network (VPN), or access to email, OneDrive, and/or SharePoint via Outlook Web Access, all of which require multifactor authentication. The supervisor will determine which connection mechanism is appropriate based on operational need and the availability of resources. Telecommuters using personal devices must request, receive, and test any necessary software and authentication token prior to telecommuting. ITS will not be responsible for any hardware issues that may occur on personal devices because of the program. Telecommuters are responsible for keeping their personal devices functioning. The ITS Service Desk cannot answer calls and/or respond to tickets that are related to personal device hardware issues.
+
+Minimal office supplies such as writing paper and utensils may be provided by ITS and should be requested during the telecommuter's in-office work period as supplies will not be shipped to the alternate work site. Out-of-pocket expenses will not be reimbursed.
+
+The telecommuter is responsible for securing and paying for an internet connection. ITS will not reimburse internet costs. The telecommuter must have an internet connection with bandwidth that is appropriate for conducting official business without disruption.
+
+If assigned equipment or any component thereof is lost, stolen, or destroyed the telecommuter must immediately notify the supervisor and refer to the ITS Acceptable Use of Information Technology Resources Policy (NYS-P14-001), completing all steps outlined within the policy. The supervisor may require telecommuters to report to the official work site or charge leave accruals.
+
+When the telecommuting agreement ends or is terminated, the employee must return all equipment and supplies issued on their next workday, unless otherwise specified by the supervisor.
+
+## **4.6.3 Alternate Work Site**

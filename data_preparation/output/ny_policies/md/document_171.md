@@ -1,0 +1,9 @@
+This standard applies to all SEs, defined as "State Government" entities as defined in Executive Order 117, established January 2002, or "State Agencies" as defined in Section 101 of the State Technology Law. This includes employees and all third parties (such as local governments, consultants, vendors, and contractors) that use or access any IT resource for which the SE has administrative responsibility, including systems managed or hosted by third parties on behalf of the SE. While an SE may adopt a different standard, it must include the requirements set forth in this one.
+
+The scope of this standard covers information throughout its entire life cycle (i.e., generation, use, storage, and disposition). It covers information in any form including electronic, paper, voice, video, or other physical forms.
+
+## **4.0 Information Statement**
+
+As per the NYS-P03-002 Information Security Policy, Section 4.5, all information and/or information systems must be classified, reviewed, and revised as needed.
+
+Information classification is based on three principles of security: 1) confidentiality, 2) integrity, and 3) availability. For each principle, information can be classified as low, moderate, or high based on the potential impact on the SE should certain events occur that jeopardizes the information and/or information systems needed by the SE. When classifying the impact, the SE should consider how the information and/or information systems may be used to accomplish its assigned mission, protect its assets, fulfill its legal responsibilities, maintain its day-to-day functions, and protect individuals. Impact levels are defined as limited, serious, and severe or catastrophic. For the purposes of classification, limited impact shall be deemed to include no impact.

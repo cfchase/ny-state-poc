@@ -1,0 +1,13 @@
+**6** Patch management must be prioritized based on the severity of the vulnerability that the patch addresses. In most cases, severity ratings are based on the Common Vulnerability Scoring System (CVSS) v3.0 Ratings. A CVSS score of 9.0-10.0 is a critical vulnerability; 7.0-8.9 is a high impact vulnerability; a score of 4.0-6.9 is a moderate vulnerability; and a CVSS of 0.1-3.9 is considered a low impact vulnerability.
+
+7 The NYS Chief Information Security Office (CISO) may deem any vulnerability to be high impact; regardless of CVSS score, based on a NYS specific analysis.
+
+**8 ** The impact to the SE's information assets is based on the asset's information classification as per the NYS-S14-002_Information_Classification_Standard . To the extent possible; the patching process must follow the timeline contained in the tables below:
+
+|-------------------------------------------------|---------------------------------------------------------|----------------------------------------------------------------------------|-----------------------------------------------------|
+| Table 1: RISK RATING                            | Table 1: RISK RATING                                    | Table 1: RISK RATING                                                       | Table 1: RISK RATING                                |
+|                                                 | Exposure                                                | Exposure                                                                   | Exposure                                            |
+| Impact [Confidentiality Inteqrity Availability) | Systems with no network connectivity to production data | Systems with network connectivity to production data (not internet facing) | System that is publicly available from the internet |
+| High                                            | Moderate                                                | High                                                                       | High                                                |
+| Moderate                                        | Low                                                     | Moderate                                                                   | High                                                |
+| Low                                             | Low                                                     | Low                                                                        | High                                                |

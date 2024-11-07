@@ -1,0 +1,11 @@
+(a) A list of the job titles and circumstances for which individually assigned vehicles are requested and information as to whether the vehicle may be taken home at night or used for commuting purposes or whether the vehicle will be parked at State facilities when not in use
+
+(b) For each Job title; an explanation in support of the request for individually assigned vehicles.   In cases where there is a need to carry specialized tools or equipment to accomplish job duties; it may be appropriate to individually assign a vehicle; but the vehicle should be parked at a State facility when not in use. As a general rule, only employees who are first responders, who are on call 24 hours per or who are responsible for ensuring public safety will be allowed to take State vehicles home or use vehicles for commuting purposes. day,
+
+Each agency and public authority shall review individual assignments of vehicles on no less than an annual basis . If at any time the job duties change and the individual vehicle assignment is no longer warranted; such assignment shall be terminated. new individual assignments must be approved by the Director of State Operations. Any
+
+4 In circumstances where a pool vehicle is not available, State agencies and authorities may allow employees to use either a rental car or their personal vehicle; whichever is less expensive. A "trip calculator" for determining the least expensive option may be found on the website of the Governor's Office of Employee Relations at http:Ilwww goer ny govEmplovee_ResourceslTravel_Information cfm   State employees who may be entitled to reimbursement of travel expenses should review the regulations of the State Comptroller and other guidance documents, which may be found at http:/lwww osc state ny uslaqenciesltravelltravelhtm.
+
+5 Employees with physical disabilities who own specially equipped personal vehicles are authorized to use their personal vehicles when automobile transportation is required to perform official State functions.
+
+## **Use of State Vehicles**

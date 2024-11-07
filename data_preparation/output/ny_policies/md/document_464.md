@@ -1,0 +1,9 @@
+Telecommuting, whether regularly scheduled or granted as an exception, should generally not be used as a vehicle to meet childcare, elder care, or other familial care responsibilities arising during the employee's regular work hours. Employees should work with ITS Human Resources to determine whether other leave vehicles or schedule adjustments would be more appropriate; including but not limited to: Family Medical Leave Act (FMLA) leave, Compressed Work Schedules, and/or Alternate Work Schedules.
+
+## **4.6.1 Schedule**
+
+The number of permissible telecommuting days for each employee will be determined by the current work demands/assignments as well as operational needs and collective bargaining agreements but will not exceed 50% of the telecommuter's regularly scheduled work hours in a pay period, except where authorized consistent within Section 4.6.1.1 below.
+
+Telecommuters will treat telecommuting days like regular workdays and will be expected to maintain a regular work schedule and routine while telecommuting (including overtime when appropriate and authorized in advance). The same attendance rules and call-in procedures apply when telecommuting. Official work site coverage will be among the considerations made by the employee's supervisor when making telecommuting decisions. Seniority may be used as a factor in the approval of a telecommuting day.
+
+Supervisors shall require telecommuters to have a set telecommuting schedule. The approved set schedule is determined by the employee's supervisor based on operational needs. Any request for a change in an approved set schedule or telecommuting day must be submitted to the supervisor in advance.

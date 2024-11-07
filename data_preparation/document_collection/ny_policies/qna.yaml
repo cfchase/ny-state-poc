@@ -38,6 +38,22 @@ seed_examples:
           regarding their agency’s legal obligations related to a lost or stolen device, as well as compliance with the 
           Office of the State Comptroller’s Guide to Financial Operations Chapter XII.10.E – Reporting the Theft, Loss
           or Misuse of State Assets, if applicable.
+      - question: >
+          What actions should an agency take if a state-issued laptop is lost or stolen?
+        answer: >
+          In the event a device is lost, stolen, or otherwise unreturnable, the user or the user’s supervisor must 
+          immediately notify ITS and their agency. The user must also consult their agency’s Chief Legal Counsel 
+          regarding their agency’s legal obligations related to a lost or stolen device, as well as compliance with the 
+          Office of the State Comptroller’s Guide to Financial Operations Chapter XII.10.E – Reporting the Theft, Loss
+          or Misuse of State Assets, if applicable.
+      - question: >
+          What actions should an agency take if a state-issued laptop is lost or stolen?
+        answer: >
+          In the event a device is lost, stolen, or otherwise unreturnable, the user or the user’s supervisor must 
+          immediately notify ITS and their agency. The user must also consult their agency’s Chief Legal Counsel 
+          regarding their agency’s legal obligations related to a lost or stolen device, as well as compliance with the 
+          Office of the State Comptroller’s Guide to Financial Operations Chapter XII.10.E – Reporting the Theft, Loss
+          or Misuse of State Assets, if applicable.
 document:
   repo: 'file:///home/cloud-user/ny-state-poc'
   commit:
