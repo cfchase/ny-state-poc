@@ -1,0 +1,10 @@
+version: 3
+domain: government poloicies
+created_by: cfchase
+document_outline: ''
+seed_examples: []
+document:
+  repo: 'file:///home/cloud-user/ny-state-poc'
+  commit:
+  patterns:
+    - 'data_preparation/output/ny_policies/md/*.md'
