@@ -1,346 +1,237 @@
 version: 3
-domain: NY State Policies
-created_by: cfchase
+domain: policies
+created_by: alimaredia
 document_outline: |
-  The New York State Office of Information Technology Services (ITS) policies and standards for technology use.
+    The New York State Office of Information Technology Services (ITS) policies and standards for technology use.
 seed_examples:
   - context: >
-      ## 1.0 Purpose and Benefits
+      |----------------------------------------------------------|--------------------------------------------------------------------------------------|
+      | New York State Information Technology Policy             | No:  NYS-P24-001                                                                     |
+      | IT Policy :                                              | Updated:  01/08/2024                                                                 |
+      | Acceptable Use of  Artificial Intelligence  Technologies | Issued By:  NYS Office of Information  Technology Services  Owner: Chief Data Office |
 
-      This policy outlines the process for the surplus and/or secure disposal of New York State (NYS) Office of 
-      Information Technology Services (ITS) owned or managed electronic equipment (E-equipment), furniture, 
-      miscellaneous equipment, and vehicles. This policy safeguards state assets, creates efficiency in 
-      surplusing or scrapping, maximizes the value received for property that is surplus to the State's needs, 
-      and is attentive to environmental impacts.
-      
-      In order to effectively surplus and dispose of items no longer of use, and which have no value, the ITS surplus 
-      and disposal process has been established based on guidelines provided by the Office of General Services
-      (OGS) and NYS-S13-003 Sanitization/Secure Disposal Standard.
-    questions_and_answers:
-      - question: >
-          What is the purpose of the ITS surplus and disposal policy?
-        answer: >
-          The policy outlines the process for surplusing or securely disposing of electronic equipment, furniture, 
-          miscellaneous equipment, and vehicles owned or managed by the New York State Office of Information Technology 
-          Services. It aims to safeguard state assets, create efficiency in the surplus process, maximize the value of 
-          surplus property, and minimize environmental impact.
-      - question: >
-          What guidelines is the ITS surplus and disposal process based on?
-        answer: >
-          The ITS surplus and disposal process is based on guidelines provided by the Office of General Services (OGS) 
-          and NYS-S13-003 Sanitization/Secure Disposal Standard.
-      - question: >
-          What does the policy aim to maximize?
-        answer: >
-          The policy aims to maximize the value received for items that are surplus to the State's needs.
-  - context: >
-      ## 2.0 Authority
-      
-      Section 103(10) of the State Technology Law provides ITS with the authority to establish statewide technology 
-      policies, including technology and security standards. Section 2 of Executive Order No. 117 1 , established 
-      January 2002, provides the State Chief Information Officer with the authority to oversee, direct, and coordinate
-      the establishment of information technology policies, protocols, and standards for State government, including 
-      hardware, software, security, and business re-engineering.
-      
-      Details regarding this authority can be found in NYS ITS Policy, NYS-P08-002 Authority to Establish Enterprise 
-      Information Technology (IT) Policies, Standards and Guidelines.
-      
-      State Finance Law (SFL) §167 and §168 set forth the legal requirements for the transfer and disposal of 
-      State-owned personal property which has been determined to be no longer useful and may be surplused or 
-      disposed of by the State agencies having custody or control of such property excluding vehicles, which is 
-      determined by OGS.
-    questions_and_answers:
-      - question: >
-          What gives the ITS authority to establish statewide technology policies?
-        answer: >
-          Section 103(10) of the State Technology Law.
-      - question: >
-          What authority does Section 2 of Executive Order No. 117 give the State Chief Information Officer?
-        answer: >
-          To oversee, direct, and coordinate the establishment of information technology policies, protocols, 
-          and standards for State government. This includes, but is not limited to, hardware, software, security, 
-          and business re-engineering.
-      - question: >
-          Where can I find more details about the authority to establish IT policies?
-        answer: >
-          NYS ITS Policy, NYS-P08-002 Authority to Establish Enterprise Information Technology (IT) Policies, 
-          Standards and Guidelines.
-  - context: >
-      ## 3.0 Scope
-      
-      This standard applies to all "State Entities" (SE), defined as "State Government" entities as defined in Executive 
-      Order 117, established January 2002, or "State Agencies" as defined in Section 101 of the State Technology Law. 
-      This includes employees and all third parties (such as local governments, consultants, vendors, and contractors) 
-      that use or access any IT resource for which the SE has administrative responsibility, including systems managed 
-      or hosted by third parties on behalf of the SE. While an SE may adopt a different standard, it must include the 
-      requirements set forth in this one.
-      
-      This standard applies to all administrators of Bring Your Own Device ("BYOD") programs.
-      
-      The BYOD devices encompassed in the scope of this standard includes computers, smartphones, tablets and other 
-      personal devices that can access ITS Resources.
+      # Title: **1.0 Purpose and Benefits**
+
+      The purpose of this policy is to establish guidelines for the acceptable use of Artificial Intelligence (AI) technologies, as defined here within, by State Entities (SE). Through the responsible use of AI, SEs can drive innovation, increase operational efficiencies, and better serve New Yorkers while protecting privacy, managing risk, and promoting accountability, safety, and equity. Agencies are encouraged to responsibly adopt AI technologies and should consider this policy a tool to aid in that adoption.
 
     questions_and_answers:
       - question: >
-          Who does this policy document apply to?
+          What is the purpose of the Use of Artificial Intelligence policy?
         answer: >
-          The policy document applies to ITS and its employees (including full-time, part-time, and temporary 
-          employees), contractors, consultants, volunteers, and interns.
+          The purpose of this policy is to establish guidelines for the acceptable use of Artificial Intelligence (AI) technologies, as defined here within, by State Entities (SE).
       - question: >
-          What does the policy apply to?
+          What is the benefit of the Use of Artificial Intelligence policy?
         answer: >
-          All New York State e-equipment and personal property owned and managed by ITS.
-  - context: >
+          The benefit of this policy is through the responsible use of AI, SEs can drive innovation, increase operational efficiencies,
+          and better serve New Yorkers while protecting privacy, managing risk, and promoting accountability, safety, and equity.
+      - question: >
+          What is the downside of not following the Use of Artificial Intelligence guidelines?
+        answer: >
+          Agencies not using the Acceptable Use of Artificial Intelligency guidelines risk using AI irresponsibly, not innovating,
+          and not improving operational efficiency.
+
+  - context: |
+      Telecommuting is an alternate work arrangement that allows employees to conduct some of their work away from their official work site. ITS's policy is to support telecommuting where it is reasonable to do so based on the agency's mission and operational needs.
+
+      The Telecommuting Program is completely voluntary. Every application will be considered on an individual basis. ITS reserves the right to unilaterally approve, disapprove, modify, revoke, or suspend any individual's participation in this program pursuant to procedures outlined in Section 4.3.5.
+      Telecommuting is not operationally feasible for all job functions.
+      The Bureau Director, or designee, determines which job functions are eligible to participate in this program. Determinations as to which job functions are eligible for telecommuting are final and cannot be appealed.
+
+      This program will sunset on June 30, 2025 but can be extended at the discretion of ITS. ITS will comply with any current or future obligations under collective bargaining agreements regarding telecommuting, including meeting with union representatives prior to the termination of the Telecommuting Program if required by the applicable collective bargaining agreement.
+
+      ## **4.1 Types of Telecommuting**
+
+      Event Driven - Occasional telecommuting arrangement that is infrequent and not regularly scheduled, which is approved or directed by the Division Executive, or their designee.
+
+      Regularly Scheduled - Routine telecommuting arrangement with a set schedule.
+
+      Exceptions - A telecommuting arrangement that exceeds 50% of the telecommuter's regularly scheduled work hours in a pay period and requested on a temporary and adhoc basis. These requests will be evaluated on a case-by-case basis.
+    questions_and_answers:
+      - question: |
+          What are the types of telecommuting for ITS employees?
+        answer: |
+          Telecommuting for ITS employees is either event driven, regularly scheduled, or with exception.
+      - question: |
+          When will the ITS Telecommuting program end?
+        answer: |
+          This program will sunset on June 30, 2025 but can be extended at the discretion of ITS.
+      - question: |
+          Who determines which ITS jobs be part of the Telecommuting Program?
+        answer: |
+          The Bureau Director, or designee, determines which job functions are eligible to participate in this program.
+          Determinations as to which job functions are eligible for telecommuting are final and cannot be appealed.
+  - context: |
+      ## **4.0 Information Statement**
+
+      Only the ITS Chief Technology Officer (CTO) or an assigned designee may approve use of OSS. ITS shall keep an approved list of authorized designees.
+
+      OSS options should be considered first for all potential software solutions. A list of approved OSS can be accessed on the ITS Approved Software List.
+
+      At minimum, OSS must meet these four (4) conditions to be reviewed:
+
+      **1** The software must be free to use.
+
+      **2** The source code of the software must be available on the Internet.
+      **3** The license to use the software must be approved by the ITS Division of Legal Affairs (DLA). A list of approved licenses is listed in Appendix A: Pre-Screened Open Source Licenses.
+
+      **4** The user is not required to agree to terms or conditions prior to the download; or, DLA has approved the terms and conditions associated with the OSS.
+
+      OSS options should be considered first for all potential software solutions. A list of approved OSS can be accessed on the ITS Approved Software List.
+
+    questions_and_answers:
+      - question: |
+          Should OSS options be considered first for all potential ITS software solutions?
+        answer: |
+          Yes, OSS options should be considered first for all potential software solutions.
+          A list of approved OSS can be accessed on the ITS Approved Software List.
+      - question: |
+          What conditions should OSS meet to be used as an ITS software solution?
+        answer: |
+          The software must be free to use. The source code of the software must be available on the Internet.
+          The license to use the software must be approved by the ITS Division of Legal Affairs (DLA).
+          The user is not required to agree to terms or conditions prior to the download; or, DLA has approved the terms and conditions associated with the OSS.
+      - question: |
+          Who approves software licenses for ITS?
+        answer: |
+          The ITS Division of Legal Affairs (DLA) approves software licenses.
+  - context: |
+      ## **4.3 Key Management**
+
+      The SE must ensure that a secure environment is established to protect the cryptographic keys used to encrypt and decrypt information.
+
+      · Keys must be securely distributed and stored.
+
+      · Unencrypted keys must not be stored with the data that they encrypt.
+
+      Access to keys must be restricted to only individuals who have a business need to access the keys.
+
+      Keys will be protected with an authentication token that conforms to the identified assurance level as per the NYS-P20-001 Digital Identity Policy.
+
+      Compromise of a cryptographic key would cause all information encrypted with that key to be considered unencrypted. If a compromise has been discovered, a new key must be generated and used to continue protection of the encrypted information. Specific circumstances should be evaluated to determine if a breach notification is required.
+
+      Encryption keys and their associated software products must be maintained for the life of the archived data that was encrypted with that product.
+
+    questions_and_answers:
+      - question: |
+          What measures must be taken to ensure the security of cryptographic keys?
+        answer: |
+          Cryptographic keys must be securely distributed and stored. Unencrypted keys must not be stored with the data that they encrypt.
+      - question: |
+          Who has access to ITS encryption keys?
+        answer: |
+          Access to encryption keys must be restricted to only individuals who have a business need to access the keys.
+      - question: |
+          What should be done if a cryptographic key is compromised?
+        answer: |
+          If an encrpytion key has been compromised, a new key must be generated and used to continue protection of the encrypted information.
+          Specific circumstances should be evaluated to determine if a breach notification is required.
+  - context: |
       ## 4.0 Information Statement
-      
-      It is the responsibility of each ITS business unit to understand and comply with this policy. When a business 
-      unit is in possession of ITS-owned personal property it no longer needs or uses, and it cannot be traded in to 
-      the manufacturer for credit toward purchasing a new item, either a Surplus/LDA Request must be entered into ITSM, 
+
+      It is the responsibility of each ITS business unit to understand and comply with this policy. When a business
+      unit is in possession of ITS-owned personal property it no longer needs or uses, and it cannot be traded in to
+      the manufacturer for credit toward purchasing a new item, either a Surplus/LDA Request must be entered into ITSM,
       or a CS-201 Form must be completed.
-      
+
       ## 4.1 E-Equipment
-      
-      E-equipment is hardware used to input, store, process, transmit, and output information, including, but not 
+
+      E-equipment is hardware used to input, store, process, transmit, and output information, including, but not
       limited to, desktops, laptops, mobile devices, servers, mobile devices, video conferencing equipment, copiers,
-      printers, and data center equipment. The business unit must follow the Chief Technology Office's (CTO) 
+      printers, and data center equipment. The business unit must follow the Chief Technology Office's (CTO)
       guidelines for disposition of end of life E-equipment and NYS-S13-003 Sanitization/Secure Disposal Standard.
-      Once properly prepared for surplus or disposal, the business unit must submit a ITSM ServiceNow Surplus/LDA 
+      Once properly prepared for surplus or disposal, the business unit must submit a ITSM ServiceNow Surplus/LDA
       Service Request.
-      
-      As established in, ITS-P21-001 Workplace Computing Device and ITS-P18-007 Mobile Provisioning and Deprovision 
-      policies, it is the responsibility of the Client Agency to properly return devices, including E-equipment, 
-      no longer needed, and to coordinate with agency legal counsel regarding preservation obligations before 
+
+      As established in, ITS-P21-001 Workplace Computing Device and ITS-P18-007 Mobile Provisioning and Deprovision
+      policies, it is the responsibility of the Client Agency to properly return devices, including E-equipment,
+      no longer needed, and to coordinate with agency legal counsel regarding preservation obligations before
       turning over equipment to ITS.
-      
-      In accordance with Section 168 of the SFL, prior to surplus or disposal of E-equipment, consideration 
+
+      In accordance with Section 168 of the SFL, prior to surplus or disposal of E-equipment, consideration
       should be given to donating to the Computer Recycling for Education and Technology Enhancement (CREATE) program.
-      This program was created to take computer equipment that is no longer needed by the state and private industry 
+      This program was created to take computer equipment that is no longer needed by the state and private industry
       and distribute to schools, libraries, and other educational institutions.
     questions_and_answers:
-      - question: >
-          Whose responsibility is it to understand and comply with the policy?
-        answer: >
-          Each ITS business unit.
-      - question: >
-          What must a business unit do when it no longer needs ITS-owned personal property?
-        answer: >
-          If the item cannot be traded in to the manufacturer for credit toward purchasing a new item, 
-          the business unit must either enter a Surplus/LDA Request into ITSM or complete a CS-201 form.
-      - question: >
-          What are examples of E-equipment?
-        answer: >
-          Desktops, laptops, mobile devices, servers, video conferencing equipment, copiers, printers, 
-          and data center equipment.
-      - question: >
-          What guidelines must be followed when disposing of end of life E-equipment?
-        answer: >
-          The Chief Technology Office's (CTO) guidelines for the disposition of end-of-life E-equipment 
-          and NYS-S13-003 Sanitization/Secure Disposal Standard.
-      - question: >
-          What must be submitted once E-equipment is prepared for surplus or disposal?
-        answer: >
-          ITSM ServiceNow Surplus/LDA Service Request.
-      - question: >
-          Where can you find information on a client agency's responsibility for returning devices?
-        answer: >
-          ITS-P21-001 Workplace Computing Device and ITS-P18-007 Mobile Provisioning and Deprovision policies.
-      - question: >
-          What should be considered before surplusing or disposing of E-equipment?
-        answer: >
-          Donating to the Computer Recycling for Education and Technology Enhancement (CREATE) program.
+      - question: |
+          What are examples of ITS E-equipment?
+        answer: |
+          ITS E-equipment is hardware used to input, store, process, transmit, and output information, including, but not
+          limited to, desktops, laptops, mobile devices, servers, mobile devices, video conferencing equipment, copiers,
+          printers, and data center equipment.
+      - question: |
+          What ITS guidelines must be followed when disposing of end of life E-equipment?
+        answer: |
+          The Chief Technology Office's (CTO) guidelines for the disposition of end-of-life E-equipment
+          and NYS-S13-003 Sanitization/Secure Disposal Standard should be followed.
+      - question: |
+          What must be submitted once ITS E-equipment is prepared for surplus or disposal?
+        answer: |
+          An ITSM ServiceNow Surplus/LDA Service Request must be submitted.
   - context: >
-      ## 4.2 Furniture and Miscellaneous Equipment
-      
-      If the furniture or miscellaneous equipment is determined to be reusable, ITS Facilities Services will 
-      re-deploy the item to a new location or individual.
-      
-      If the furniture or miscellaneous equipment is determined to have value but is no longer needed for ITS 
-      use (i.e., items that are still in reasonably good shape and/or still function properly but are no longer 
-      needed by the business unit), a CS-201 Form must be completed and, if applicable, the Information Security 
-      Certification must be signed. The completed form, along with digital pictures, must be sent to ITS Facilities 
-      Services at its.sm.surplus@its.ny.gov, for authorization and processing. Once all approvals are in place, 
-      ITS Facilities Services will coordinate the furniture or miscellaneous equipment drop-off with OGS.
-      
-      ITS Facilities Services will work with the business unit to review the form. If the form is complete, 
-      ITS Facilities Services will approve and authorize the disposal of furniture or miscellaneous equipment. 
-      If the form is incomplete, it will be returned to the requestor for revision. Furniture and miscellaneous 
-      equipment cannot be removed without the proper approval and authorization as indicated above.
-      
-      In all cases, until a final determination is made by ITS Facilities Services, the business unit is 
-      responsible for storing items. There is no ITS centralized warehouse area to hold furniture or miscellaneous
-      equipment.
+      ## **2.0 Authority**
+
+      Section 103(10) of the State Technology Law provides the Office of Information Technology Services (ITS) with the authority to establish statewide technology policies, including technology and security standards.
+      Section 2 of Executive Order No. 117 1, established January 2002, provides the State Chief Information Officer with the authority to oversee, direct and coordinate the establishment of information technology policies, protocols and standards for State government, including hardware, software, security and business reengineering.
+      Details regarding this authority can be found in NYS ITS Policy, NYS-P08-002 Authority to Establish State Enterprise Information Technology (IT) Policy, Standards and Guidelines.
     questions_and_answers:
       - question: >
-          What happens to reusable furniture or miscellaneous equipment?
+          What gives ITS the authority to establish statewide technology policies?
         answer: >
-          ITS Facility Services will re-deploy it to a new location or individual.
+          Section 103(10) of the State Technology Law provides the Office of Information Technology Services (ITS) with the authority to establish statewide technology policies, including technology and security standards.
       - question: >
-          What must be done with furniture or miscellaneous equipment that is no longer needed for ITS use 
-          but still has value?
+          What does the State Chief Information Officer do?
         answer: >
-          A CS-201 Form must be completed, and if applicable, the Information Security Certification must be signed. 
-          The completed form, along with digital pictures, must be sent to ITS Facilities Services at 
-          its.sm.surplus@its.ny.gov for authorization and processing.
+          The State Chief Information Officer with the authority to oversee, direct and coordinate the establishment of information technology policies, protocols and standards for State government.
       - question: >
-          What is the responsibility of the business unit if the CS-201 form is incomplete?
+          Where can I find details regarding the authority of the State Chief Information Officer?
         answer: >
-          The form will be returned to the requestor for revision.
-      - question: >
-          Can furniture and miscellaneous equipment be removed without approval and authorization?
-        answer: >
-          No.
-      - question: >
-          Who is responsible for storing furniture or miscellaneous equipment until a final determination is made by 
-          ITS Facilities Services?
-        answer: >
-          The business unit.
+          Details regarding the authority of the State Chief Information Officer can be found in NYS ITS Policy, NYS-P08-002 Authority to Establish State Enterprise Information Technology (IT) Policy, Standards and Guidelines.
   - context: >
-      ## 4.3 Vehicles
-  
-      When a business unit determines a State Vehicle should be removed from service, the business unit must notify ITS
-      Facilities Services. If the vehicle is determined to be reusable, ITS Facilities Services will deploy it to a new 
-      location. If ITS Facilities Services determines the vehicle will be surplused, the following actions are to be 
-      taken:
-        
-        · All decals, etc., except for inspection and registration stickers, must be removed and the vehicle cleaned 
-          inside and out.
-        
-        · The vehicle is to be transported to the Swan Street location if the normal assigned parking for that vehicle
-          is not in Albany/Capital District.
-        
-        When the State Vehicle is turned in to ITS Facilities Services, all related items such as gas cards, 
-      Fleet Service cards/manuals, E-ZPass tags, and completed/signed mileage reports are also to be turned in.
-        
-        ITS Facilities Services will process the State Vehicle to OGS for auction, transfer, or disposal by filling
-      out a Report of Surplus Motor Vehicles and Motorized Equipment, CS-201.1 Form. ITS Facilities Services will 
-      further notify all concerned parties that the vehicle is no longer in service.
-        
-        Once all approvals are in place, ITS Facilities Services will coordinate the State Vehicle drop-off with OGS.
-    questions_and_answers:
-      - question: >
-          Who should be notified when a business unit determines a state vehicle should be removed from service?
-        answer: >
-          ITS Facilities Services.
-      - question: >
-          What should be done with a state vehicle if it is determined to be reusable?
-        answer: >
-          ITS Facilities Services will deploy it to a new location.
-      - question: >
-          What must be done before a vehicle is surplused?
-        answer: >
-          All decals, except for inspection and registration stickers, must be removed. The vehicle must be cleaned 
-          inside and out.  If the vehicle is not normally parked in the Albany/Capital District, it must be 
-          transported to the Swan Street location.
-      - question: >
-          What items related to the vehicle should be turned in with it?
-        answer: >
-          Gas cards, Fleet Service cards/manuals, E-ZPass tags, and completed/signed mileage reports.
-      - question: >
-          What form does ITS Facilities Services use to process the vehicle to OGS for auction, transfer, or disposal?
-        answer: >
-          Report of Surplus Motor Vehicles and Motorized Equipment, CS-201.1 Form.
-  - context: >
-      ## 5.0 Compliance
-      
-      This policy shall take effect upon publication. Compliance is required with all ITS policies and standards. 
-      ITS may amend its policies and standards at any time; compliance with amended policies and standards is required.
-      
-      Since these items of personal property were purchased with government funds, the law requires agencies to
-      follow these procedures and the OGS guidelines to recoup their value by re-using the items or selling them to 
-      the public. Willful failure to follow these procedures and the OGS guidelines is a violation of law which may
-      result in a charge of misconduct or other penalties. Your primary responsibility as an ITS employee is to notify 
-      ITS Facilities Services when you have an item of ITS personal property (i.e., eequipment, furniture, miscellaneous 
-      equipment, and vehicles) for which you no longer have a business need.
-      
-      SFL §167 establishes OGS as the State agency responsible for transferring surplus equipment from one State 
-      department/agency to another State department/agency. Please refer to and review the OGS website for OGS current 
-      procedures and forms for the surplus of State property: https://ogs.ny.gov/state-surplus-property-program.
-    questions_and_answers:
-      - question: >
-          When does the policy take effect?
-        answer: >
-          Upon publication.
-      - question: >
-          Is compliance with amended ITS policies and standards required?
-        answer: >
-          Yes.
-      - question: >
-          What is the primary responsibility of an ITS employee regarding surplus items?
-        answer: >
-          To notify ITS Facilities Services when they have an item of ITS personal property they no longer need.
-      - question: >
-          What is the responsibility of OGS, as established by SFL §167?
-        answer: >
-          To transfer surplus equipment from one State department/agency to another.
-  - context: >
-      #### 7.0 Contact Information
+      ## **7.0 Contact Information**
+
       Submit all inquiries and requests for future enhancements to the policy owner at:
-      
-      Facilities Services Reference: ITS-P04-005 NYS Office of Information Technology Services Swan Street Bldg., 
-      Core 4 Albany, NY 12220-0062
-      Email: its.sm.surplus@its.ny.gov
-      Telephone: (518) 402-2205
-      Statewide technology policies, standards, and guidelines may be found at the following website: 
-      https://its.ny.gov/policies
+
+      Chief Technology Office Reference: ITS-P23-001 NYS Office of Information Technology Services Empire State Plaza P.O. Box 2062 Albany, NY 12220
+
+      **Email: CTO@its@ny.gov
+
+      Telephone: 518-402-7000
+
+      Statewide technology policies, standards, and guidelines may be found at the following website: https://its.ny.gov/policies
     questions_and_answers:
-      - question: >
-          What is the email address for inquiries about surplus items?
+      - question: |
+          Who can I email if I have a question about ITS policies and standards for technology use?
         answer: >
-          its.sm.surplus@its.ny.gov
-      - question: >
-          What is the phone number for inquiries about surplus items?
+          You can email CTO@its@ny.gov for any questions about ITS policies and standards for technology use.
+      - question: |
+          Where can I find policies, standards, and guidelines for New York State technology policies?
         answer: >
-          (518) 402-2205
-      - question: >
-          Where can you find statewide technology policies, standards, and guidelines?
+          Statewide technology policies, standards, and guidelines may be found at the following website: https://its.ny.gov/policies
+      - question: |
+          What is the telephone number to submit inquiries and requests about ITS policies and standards?
         answer: >
-          https://its.ny.gov/policies
+          The number to call about requests and inquiries about ITS policies and standards is 518-402-7000.
   - context: >
-      #### 8.0 Revision History
-      This policy document should be reviewed consistent with the requirements set forth in NYS-P09- 003 
-      Process for Establishing Information Technology Polices, Standards and Guidelines.
-      
-      | Date | Description of Change | Reviewer |
-      | ------ | ------ | ------ |
-      | 07/07/2004 | Original policy | CIO/OFT |
-      | 05/01/2006 | Format Only | CIO/OFT |
-      
-      | Date | Description of Change | Reviewer |
-      | ------ | ------ | ------ |
-      | 09/06/2008 | Format Only (Originally PIB # ITS-17-P) | CIO/OFT |
-      | 01/19/2011 | Revised to remove redundancies and  reference legal basis for surplus  program | CIO/OFT |
-      | 01/11/2012 | Revised to reflect new logo, policy  number (CIO-P04-005) and updated  forms | CIO/OFT |
-      | 09/19/2012 | Revised - format/logo only | CIO/OFT |
-      | 11/14/2012 | Republished | CIO/OFT |
-      | 7/31/2016 | Revised to update link and add  Appendix B | CIO/OFT |
-      | 02/20/2018 | Revised | Facilities and Mail  Services |
-      | 08/02/2021 | Revised to reflect current surplus and  disposal practices. | Facilities Services |
-      
-      #### 9.0 Related Documents
-      ITSM ServiceNow Surplus/LDA Service Request
-      Report of Surplus Personal Property (CS-201) Form
-      Report of Surplus Motor Vehicles and Motorized Equipment (CS-201.1) Form
-      NYS-S13-003 Sanitization/Secure Disposal
-      ITS-S18-001 Fleet Management Usage
+      ## **5.0 Compliance**
+
+      This standard shall take effect upon publication. Compliance is required with all enterprise policies and standards. ITS may amend its policies and standards at any time; compliance with amended policies and standards is required.
+
+      If compliance with this standard is not feasible or technically possible, or if deviation from this policy is necessary to support a business function, State Entities shall request an exception through the Chief Information Security Office exception process.
     questions_and_answers:
       - question: >
-          When was this policy document originally published?
+          What percent of State capital spending in FY 2025 is expected to be supported from Federal aid?
         answer: >
-          07/07/2004
+          19 percent, or $3.4 billion is expected to be supported from Federal aid.
       - question: >
-          What document outlines the requirements for reviewing this policy document?
+          Is capital spending expected to increase in FY 2025?
         answer: >
-          NYS-P09-003 Process for Establishing Information Technology Polices, Standards, and Guidelines.
+          Yes, capital spending is projected to increase by 20 percent in FY 2025.
       - question: >
-          What are the documents related to this policy?
+          How can an exception be granted for ITS policies and standards for technology use?
         answer: >
-          ITSM ServiceNow Surplus/LDA Service Request
-          Report of Surplus Personal Property (CS-201) Form
-          Report of Surplus Motor Vehicles and Motorized Equipment (CS-201.1) Form
-          NYS-S13-003 Sanitization/Secure Disposal
-          ITS-S18-001 Fleet Management Usage
+          Exceptions are granted through the Chief Information Security Office exception process.
 document:
-  repo: 'file:///home/cloud-user/ny-state-poc'
-  commit:
+  repo: 'https://github.com/ibmdataworks/mc-rules'
+  commit: ac9a5936211dd64acb0c11130f3f8ddb2398104a
   patterns:
-    - 'data_preparation/output/ny_policies/md/*.md'
+    - eligibility.md
