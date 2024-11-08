@@ -5,17 +5,17 @@ document_outline: |
   The New York State Office of Information Technology Services (ITS) policies and standards for technology use.
 seed_examples:
   - context: >
-    ## 1.0 Purpose and Benefits
+      ## 1.0 Purpose and Benefits
 
       This policy outlines the process for the surplus and/or secure disposal of New York State (NYS) Office of 
-               Information Technology Services (ITS) owned or managed electronic equipment (E-equipment), furniture, 
-               miscellaneous equipment, and vehicles. This policy safeguards state assets, creates efficiency in 
-               surplusing or scrapping, maximizes the value received for property that is surplus to the State's needs, 
-               and is attentive to environmental impacts.
+      Information Technology Services (ITS) owned or managed electronic equipment (E-equipment), furniture, 
+      miscellaneous equipment, and vehicles. This policy safeguards state assets, creates efficiency in 
+      surplusing or scrapping, maximizes the value received for property that is surplus to the State's needs, 
+      and is attentive to environmental impacts.
       
       In order to effectively surplus and dispose of items no longer of use, and which have no value, the ITS surplus 
-               and disposal process has been established based on guidelines provided by the Office of General Services
-               (OGS) and NYS-S13-003 Sanitization/Secure Disposal Standard.
+      and disposal process has been established based on guidelines provided by the Office of General Services
+      (OGS) and NYS-S13-003 Sanitization/Secure Disposal Standard.
     questions_and_answers:
       - question: >
           What is the purpose of the ITS surplus and disposal policy?
@@ -315,6 +315,13 @@ seed_examples:
       | 7/31/2016 | Revised to update link and add  Appendix B | CIO/OFT |
       | 02/20/2018 | Revised | Facilities and Mail  Services |
       | 08/02/2021 | Revised to reflect current surplus and  disposal practices. | Facilities Services |
+      
+      #### 9.0 Related Documents
+      ITSM ServiceNow Surplus/LDA Service Request
+      Report of Surplus Personal Property (CS-201) Form
+      Report of Surplus Motor Vehicles and Motorized Equipment (CS-201.1) Form
+      NYS-S13-003 Sanitization/Secure Disposal
+      ITS-S18-001 Fleet Management Usage
     questions_and_answers:
       - question: >
           When was this policy document originally published?
@@ -324,14 +331,6 @@ seed_examples:
           What document outlines the requirements for reviewing this policy document?
         answer: >
           NYS-P09-003 Process for Establishing Information Technology Polices, Standards, and Guidelines.
-  - context: >
-      #### 9.0 Related Documents
-      ITSM ServiceNow Surplus/LDA Service Request
-      Report of Surplus Personal Property (CS-201) Form
-      Report of Surplus Motor Vehicles and Motorized Equipment (CS-201.1) Form
-      NYS-S13-003 Sanitization/Secure Disposal
-      ITS-S18-001 Fleet Management Usage
-    questions_and_answers:
       - question: >
           What are the documents related to this policy?
         answer: >
