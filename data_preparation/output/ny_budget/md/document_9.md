@@ -1,0 +1,9 @@
+## **Enacted Budget Capital Plan Highlights**
+
+The Capital Plan funds the capital activities of State agencies in a fiscally responsible manner while maintaining affordable levels of debt. Capital spending, which is projected to total $17.7 billion in FY 2025, includes investments for roadways, bridges, and transit systems; affordable and supportive housing units; economic development projects; health care facilities; and environmental protection projects. Additionally, the Capital Plan continues funding for State parks, and educational, mental health, and correctional facilities.
+
+Major capital initiatives added or continued in the FY 2025 Enacted Budget include:
+
+ Five-Year Department of Transportation Capital Plan. The Enacted Budget includes approximately $7.7 billion for the third year of a five-year, $33 billion DOT capital plan. The DOT capital plan leverages Federal funding commitments made in the IIJA to support the final phases of major infrastructure projects, including the Hunts Point Interstate Access Improvement and the replacement of I-81 in Syracuse. The new plan also supports new large-scale projects, including: modernizing the Livingston Avenue Bridge in Albany; reconnecting neighborhoods across the Kensington Expressway in Buffalo; converting Route 17 to I-86 in Orange and Sullivan Counties; and assessing ways to improve road capacity at the Oakdale Merge in Suffolk County. The DOT Capital Plan also includes $1 billion for the "Bridge NY" program and $1 billion for the Pave Our Potholes program, and continues funding commitments to local highway and bridge programs.
+
+ Gateway Hudson Tunnel Project. The Enacted Budget includes the resources that are expected to be needed to make annual payments to fund the State's commitment for the Gateway Hudson Tunnel Project starting in FY 2025.

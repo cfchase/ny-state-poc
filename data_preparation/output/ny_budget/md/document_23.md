@@ -1,0 +1,9 @@
+ Maximize Tax Exemption: each bond sale is structured to comply with IRS rules to maximize the amount of bonds that can be financed on a tax exempt basis, the lowest cost of borrowing available to the State. In addition, when possible, the State dedicates PAYGO resources to avoid the issuance of taxable bonds.
+
+ Limit Risk: the State's debt portfolio has limited variable rate exposure and no derivative (swaps) exposure, which ensures that annual debt costs are not subject to rapid increases in interest rates.
+
+The following debt projections include the debt related to bonds issued prior to FY 2025, as well as estimates of future bonded-capital spending. Capital spending is projected to increase above historic levels over the 5-year plan, which results in higher bond issuances and associated debt service costs. If capital spending is lower than projected in the Capital Plan, debt outstanding and debt service estimates would also be lower.
+
+## **Debt Outstanding**
+
+State-related debt outstanding is projected to total $62.5 billion in FY 2025, an increase of $8.2 billion (15 percent) from FY 2024. New debt issuances are expected to total $7.5 billion in FY 2025, offset by $594 million in debt retirements. Additionally, debt outstanding reflects the expectation that in FY 2025 the State will finalize a service contract with GDC to pay principal and interest costs related to the $1.3 billion RRIF loan for the Hudson Tunnel Project. Debt outstanding and retirements have also been impacted by large debt prepayments in prior fiscal years. The annual increase in debt outstanding includes $1.6 billion for economic development and housing, $1.0 billion for education facilities, $625 million for environmental facilities, $774 million for health and mental hygiene, $368 million for State facilities and equipment, $2.5 billion for transportation, and $1.3 billion for the Hudson Tunnel Project.

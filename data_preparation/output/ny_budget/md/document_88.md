@@ -1,0 +1,3 @@
+## **Increasing Opportunities for Minority and Women-Owned Business Enterprises and Service-Disabled Veteran-Owned Business Enterprises**
+
+The New York State DOT promotes the use of M/WBE and SDVOB firms through its purchasing office, construction contracts, and consultant contracts. As part of the outreach process, the Department provides all prospective vendors with educational information on how to do business with the Department. In addition, the Department holds webinars, partners with other State agencies, and sponsors regional in-person training sessions on best practices for increasing engagement with the Department.

@@ -1,0 +1,9 @@
+$^{1}$ Does not include debt issued prior to April 1, 2000. Does not include debt issued in FY 2021 and FY 2022 because the debt caps were temporarily suspended in response to the COVID-19 pandemic, pursuant to Chapter 56 of the Laws of 2020 and Chapter 59 of the Laws of 2021.
+
+$^{2}$ Total State-supported debt service is adjusted for prepayments.
+
+The State uses personal income estimates published by the Federal government, specifically the BEA, to calculate the cap on debt outstanding, as required by statute. The BEA revises these estimates on a quarterly basis and such revisions can be significant. For Federal reporting purposes, BEA reassigns income from the state where it was earned to the state in which a person resides, for situations where a person lives and earns income in different states (the "residency adjustment"). The BEA residency adjustment has the effect of reducing reported New York State personal income because income earned in New York by non-residents regularly exceeds income earned in other states by New York residents. The State taxes all personal income earned in New York, regardless of place of residency.
+
+## **$^{ }$Enacted Budget - Debt Cap Changes**
+
+In the FY 2025 Enacted Budget, the State includes new bond-financed capital commitments that add $1.2 billion in new debt over the five-year Capital Plan period. The capital spending increases are offset by the FY 2025 Enacted Budget personal income forecast, greater underspending on capital projects than previously assumed, changes in the timing of bond issuances, $1 billion of new PAYGO capital spending, and reductions in debt as a result of legal defeasances to date. The State may adjust capital spending priorities and debt financing practices from time to time to preserve available debt capacity and stay within the statutory limits, as events warrant.
