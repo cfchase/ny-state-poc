@@ -219,13 +219,14 @@ seed_examples:
       If compliance with this standard is not feasible or technically possible, or if deviation from this policy is necessary to support a business function, State Entities shall request an exception through the Chief Information Security Office exception process.
     questions_and_answers:
       - question: >
-          What percent of State capital spending in FY 2025 is expected to be supported from Federal aid?
+          When do ITS policies and standard take effect?
         answer: >
-          19 percent, or $3.4 billion is expected to be supported from Federal aid.
+          ITS policies and standards take effect upon their publication.
       - question: >
-          Is capital spending expected to increase in FY 2025?
+          Is compliance required with all ITS policies and standards?
         answer: >
-          Yes, capital spending is projected to increase by 20 percent in FY 2025.
+          Yes, compliance is required with all enterprise policies and standards. ITS may amend its policies and standards at any time;
+          compliance with amended policies and standards is required.
       - question: >
           How can an exception be granted for ITS policies and standards for technology use?
         answer: >
