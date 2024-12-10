@@ -2,7 +2,7 @@ version: 3
 domain: Information Technology Policy
 created_by: alimaredia
 document_outline: |
-    The New York State Office of Information Technology Services (ITS) policies and standards for technology use.
+    The New York State Office of Information Technology Services (ITS) policy on the use of artificial intelligence technology
 seed_examples:
   - context: |
       Employees who have been removed from the Telecommuting Program may reapply for participation no sooner than six months from the date of removal.
@@ -202,6 +202,8 @@ seed_examples:
         answer: >
           The number to call about requests and inquiries about ITS policies and standards is 518-402-7000.
   - context: >
+      The New York State Office of Information Technology Services (ITS) policy on the surplus and disposal of ITS equipment, furniture, and vehicles.
+
       ## 8.0 Revision History
 
       This policy document should be reviewed consistent with the requirements set forth in NYS-P09- 003 Process for Establishing Information Technology Polices, Standards and Guidelines.
@@ -225,11 +227,11 @@ seed_examples:
       | 08/02/2021 | Revised to reflect current surplus and  disposal practices.                    | Facilities Services           |
     questions_and_answers:
       - question: >
-          What was the change made to this policy in January 2011?
+          What was the change made to the ITS policy on the surplus and disposal of equipment in January 2011?
         answer: >
           On January 19 2011, a revision was made to remove redundancies and reference legal basis for the surplus program.
       - question: >
-          Who have been the reviewers on changes to this policy?
+          Who have been the reviewers on changes to the ITS policy for the disposal of equipment?
         answer: >
           The CIO/OFT and the Facilities and Mail Services have reviewed changes to this policy.
       - question: >
@@ -237,6 +239,8 @@ seed_examples:
         answer: >
           The original policy on the surplus and disposal of ITS equipment was made on 07/07/2004.
   - context: >
+      The New York State Office of Information Technology Services (ITS) policy on the surplus and disposal of ITS equipment, furniture, and vehicles.
+
       | 11/14/2012 | Republished                                                                    | CIO/OFT                       |
       | 7/31/2016  | Revised to update link and add  Appendix B                                     | CIO/OFT                       |
       | 02/20/2018 | Revised                                                                        | Facilities and Mail  Services |
@@ -255,15 +259,15 @@ seed_examples:
       ITS-S18-001 Fleet Management Usage
     questions_and_answers:
       - question: >
-          What are documents related to this policy?
+          What are documents related to the ITS policy on surplus and disposal of equipment?
         answer: >
           Documents related this policy include the ITSM ServiceNow Surplus/LDA Service Request, Report of Surplus Personal Property (CS-201) Form, Report of Surplus Motor Vehicles and Motorized Equipment (CS-201.1) Form, NYS-S13-003 Sanitization/Secure Disposal, ITS-S18-001 Fleet Management Usage
       - question: >
-          Which forms are related to this policy?
+          Which forms are related to the ITS policy on surplus and disposal of equipment?
         answer: >
           The forms related to this policy are the Report of Surplus Personal Property (CS-201) Form and the Report of Surplus Motor Vehicles and Motorized Equipment (CS-201.1) Form
       - question: >
-          Are there documents related to this policy?
+          Are there documents related to the ITS policy on surplus and disposal of equipment?
         answer: >
           Yes there are documents related to the policy on the surplus and disposal of ITS equipment.
 document:
