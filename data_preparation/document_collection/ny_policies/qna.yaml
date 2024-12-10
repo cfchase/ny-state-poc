@@ -139,15 +139,29 @@ seed_examples:
         answer: |
           An ITSM ServiceNow Surplus/LDA Service Request must be submitted.
   - context: >
-      |----------------------------------------------------------|--------------------------------------------------------------------------------------|
-      | New York State Information Technology Policy             | No:  NYS-P24-001                                                                     |
-      | IT Policy :                                              | Updated:  01/08/2024                                                                 |
-      | Acceptable Use of  Artificial Intelligence  Technologies | Issued By:  NYS Office of Information  Technology Services  Owner: Chief Data Office |
+      ## New York State Information Technology Policy
 
-      # Title: **1.0 Purpose and Benefits**
+      IT Policy :
 
+      ## Acceptable Use of Artificial Intelligence Technologies
+
+      No:
+
+      NYS-P24-001
+
+      Updated:
+
+      01/08/2024
+
+      Issued By:
+                                                                                                                                                                                                                                                    NYS Office of Information
+
+      Technology Services
+
+      Owner:
+      Chief Data Office
+      ## 1.0 Purpose and Benefits
       The purpose of this policy is to establish guidelines for the acceptable use of Artificial Intelligence (AI) technologies, as defined here within, by State Entities (SE). Through the responsible use of AI, SEs can drive innovation, increase operational efficiencies, and better serve New Yorkers while protecting privacy, managing risk, and promoting accountability, safety, and equity. Agencies are encouraged to responsibly adopt AI technologies and should consider this policy a tool to aid in that adoption.
-
     questions_and_answers:
       - question: >
           What is the purpose of the Use of Artificial Intelligence policy?
