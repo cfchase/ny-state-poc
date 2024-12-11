@@ -1,0 +1,277 @@
+version: 3
+domain: Information Technology Policy
+created_by: alimaredia
+document_outline: |
+    The New York State Office of Information Technology Services (ITS) policy on the use of artificial intelligence technology
+seed_examples:
+  - context: |
+      Employees who have been removed from the Telecommuting Program may reapply for participation no sooner than six months from the date of removal.
+
+      ## 4.4 Appeal Process
+
+      If an employee has their application denied, the employee may request a review by the Telecommuting Appeal Board within five (5) business days of receipt of the denial. The Telecommuting Appeal Board shall consist of a representative from ITS Division of Legal Affairs, ITS Office of Administration, and ITS Human Resources.
+
+      The employee will receive instructions through their ITS email on how to engage in the appeal process.
+
+      - · Requests must be made in writing to its.sm.Administration@its.ny.gov within five (5) business days of the denial.
+      - · Requests must contain information regarding why the employee disagrees with the determination, along with any new information for the Appeal Board to consider.
+      - · Appeals will generally be heard within ten (10) business days of receipt.
+      - · Employees will be notified in writing of the Appeal Board's determination.
+
+      Denials of applications for telecommuting under the Telecommuting Program are not grievable under any collective bargaining agreements. The employee may submit a new application six (6) months after the date of the appeal denial or earlier as determined by their supervisor.
+
+      ## 4.5 Reasonable Accommodations
+    questions_and_answers:
+      - question: |
+          What does an employee need to provide in an appeal to the Telecommuting Appeal board?
+        answer: |
+          An employee needs to provide a request in writing to its.sm.Administration@its.ny.gov. This request must contain information regarding why the employee disagrees with the determination, along with any new information for the Appeal Board to consider.
+      - question: |
+          Who is on the Telecommuting Appeal Board?
+        answer: |
+          The telecommuting appeal board consists of a representative from ITS Division of Legal Affairs, ITS Office of Administration, and ITS Human Resources.
+      - question: |
+          How long do employees have to wait until they may submit a new application for the telecommuting program?
+        answer: |
+          Employees who have been removed from the Telecommuting Program may reapply for participation no sooner than six months from the date of removal or earlier as determined by their supervisor.
+  - context: |
+      ## 4.0 Information Statement
+
+      All SE websites will use a standard domain naming convention which is determined and enforced by ITS.
+
+      All domain names must:
+      - · Be easily understood and recognizable by the residents of New York State Clearly communicate the purpose of the site;
+      - · Be easy to type and avoid using confusing characters such as zeroes (0) in place of the letter "O" or the number one (1) in place of the letter "L" (l).
+      - · Contain no less than 10 but no more than 36 characters, including the ny.gov portion of the domain name (the "dots" are considered characters - hence subdomains of ny.gov are to have at least 3 characters)
+      - · Contain letters, numbers and dashes (-), but no other special characters such as underscores (\_) and blank spaces;
+      - · Avoid the use of acronyms whenever possible, unless the acronym meets one of the following conditions:
+      - a) The SE is commonly known by the acronym, or
+      - b) The acronym represents a commonly known major program. Major programs may be multiple or single agency programs but widely known to the general public. This program naming option is not intended for small, targeted audience programs. Web pages for such smaller programs must be part of the SE's main domain name pages (e.g., www.health.ny.gov/flu);
+      - · Refrain from using general terms such as "licenses," "recreation," and "benefits" without an identifier because they do not represent a specific agency/program origin or service. For example, "DriversLicenses.ny.gov" may be allowed. Statewide services that would be best represented by a general term would be an infrequent exception to this rule (e.g., desktop.ny.gov, login.ny.gov).
+      - · Use short URLs over a separate or sub-domain address, for areas on the same website (e.g., use health.ny.gov/flu instead of flu.health.ny.gov).
+    questions_and_answers:
+      - question: |
+          Should SE websites have sub-domain addresses?
+        answer: |
+          SE websites should use short URLs over a separate or sub-domain address or areas on the same website. An example of this is health.ny.gov/flu instead of flu.health.ny.gov.
+      - question: |
+          When should SE domain names use acronyms?
+        answer: |
+          SE websites should avoid the use of acronyms unless the SE is commonly known by the acronym or the acronym represents a commonly known major program.
+      - question: |
+          Can SE domain names contail special characters?
+        answer: |
+          No, SE domain names cannot contain special characters such as underscores and blank spaces. They can only contain letters, numbers, and dashes.
+  - context: |
+      ## **4.0 Information Statement**
+
+      Only the ITS Chief Technology Officer (CTO) or an assigned designee may approve use of OSS. ITS shall keep an approved list of authorized designees.
+
+      OSS options should be considered first for all potential software solutions. A list of approved OSS can be accessed on the ITS Approved Software List.
+
+      At minimum, OSS must meet these four (4) conditions to be reviewed:
+
+      **1** The software must be free to use.
+
+      **2** The source code of the software must be available on the Internet.
+      **3** The license to use the software must be approved by the ITS Division of Legal Affairs (DLA). A list of approved licenses is listed in Appendix A: Pre-Screened Open Source Licenses.
+
+      **4** The user is not required to agree to terms or conditions prior to the download; or, DLA has approved the terms and conditions associated with the OSS.
+
+      OSS options should be considered first for all potential software solutions. A list of approved OSS can be accessed on the ITS Approved Software List.
+
+    questions_and_answers:
+      - question: |
+          Should OSS options be considered first for all potential ITS software solutions?
+        answer: |
+          Yes, OSS options should be considered first for all potential software solutions.
+          A list of approved OSS can be accessed on the ITS Approved Software List.
+      - question: |
+          What conditions should OSS meet to be used as an ITS software solution?
+        answer: |
+          The software must be free to use. The source code of the software must be available on the Internet.
+          The license to use the software must be approved by the ITS Division of Legal Affairs (DLA).
+          The user is not required to agree to terms or conditions prior to the download; or, DLA has approved the terms and conditions associated with the OSS.
+      - question: |
+          Who approves software licenses for ITS?
+        answer: |
+          The ITS Division of Legal Affairs (DLA) approves software licenses.
+  - context: |
+      ## 4.0 Information Statement
+
+      It is the responsibility of each ITS business unit to understand and comply with this policy. When a business
+      unit is in possession of ITS-owned personal property it no longer needs or uses, and it cannot be traded in to
+      the manufacturer for credit toward purchasing a new item, either a Surplus/LDA Request must be entered into ITSM,
+      or a CS-201 Form must be completed.
+
+      ## 4.1 E-Equipment
+
+      E-equipment is hardware used to input, store, process, transmit, and output information, including, but not
+      limited to, desktops, laptops, mobile devices, servers, mobile devices, video conferencing equipment, copiers,
+      printers, and data center equipment. The business unit must follow the Chief Technology Office's (CTO)
+      guidelines for disposition of end of life E-equipment and NYS-S13-003 Sanitization/Secure Disposal Standard.
+      Once properly prepared for surplus or disposal, the business unit must submit a ITSM ServiceNow Surplus/LDA
+      Service Request.
+
+      As established in, ITS-P21-001 Workplace Computing Device and ITS-P18-007 Mobile Provisioning and Deprovision
+      policies, it is the responsibility of the Client Agency to properly return devices, including E-equipment,
+      no longer needed, and to coordinate with agency legal counsel regarding preservation obligations before
+      turning over equipment to ITS.
+
+      In accordance with Section 168 of the SFL, prior to surplus or disposal of E-equipment, consideration
+      should be given to donating to the Computer Recycling for Education and Technology Enhancement (CREATE) program.
+      This program was created to take computer equipment that is no longer needed by the state and private industry
+      and distribute to schools, libraries, and other educational institutions.
+    questions_and_answers:
+      - question: |
+          What are examples of ITS E-equipment?
+        answer: |
+          ITS E-equipment is hardware used to input, store, process, transmit, and output information, including, but not
+          limited to, desktops, laptops, mobile devices, servers, mobile devices, video conferencing equipment, copiers,
+          printers, and data center equipment.
+      - question: |
+          What ITS guidelines must be followed when disposing of end of life E-equipment?
+        answer: |
+          The Chief Technology Office's (CTO) guidelines for the disposition of end-of-life E-equipment
+          and NYS-S13-003 Sanitization/Secure Disposal Standard should be followed.
+      - question: |
+          What must be submitted once ITS E-equipment is prepared for surplus or disposal?
+        answer: |
+          An ITSM ServiceNow Surplus/LDA Service Request must be submitted.
+  - context: >
+      ## New York State Information Technology Policy
+
+      IT Policy :
+
+      ## Acceptable Use of Artificial Intelligence Technologies
+
+      No:
+
+      NYS-P24-001
+
+      Updated:
+
+      01/08/2024
+
+      Issued By:
+                                                                                                                                                                                                                                                    NYS Office of Information
+
+      Technology Services
+
+      Owner:
+      Chief Data Office
+      ## 1.0 Purpose and Benefits
+      The purpose of this policy is to establish guidelines for the acceptable use of Artificial Intelligence (AI) technologies, as defined here within, by State Entities (SE). Through the responsible use of AI, SEs can drive innovation, increase operational efficiencies, and better serve New Yorkers while protecting privacy, managing risk, and promoting accountability, safety, and equity. Agencies are encouraged to responsibly adopt AI technologies and should consider this policy a tool to aid in that adoption.
+    questions_and_answers:
+      - question: >
+          What is the purpose of the Use of Artificial Intelligence policy?
+        answer: >
+          The purpose of this policy is to establish guidelines for the acceptable use of Artificial Intelligence (AI) technologies, as defined here within, by State Entities (SE).
+      - question: >
+          What is the benefit of the Use of Artificial Intelligence policy?
+        answer: >
+          The benefit of this policy is through the responsible use of AI, SEs can drive innovation, increase operational efficiencies,
+          and better serve New Yorkers while protecting privacy, managing risk, and promoting accountability, safety, and equity.
+      - question: >
+          Are the guidelines on the use of Artificial Intelligence a policy or a standard?
+        answer: >
+          The Acceptable Use of Articial Intelligence Technologies, NYS-P24-001, is an NYS IT policy.
+  - context: >
+      ## **7.0 Contact Information**
+
+      Submit all inquiries and requests for future enhancements to the policy owner at:
+
+      Chief Technology Office Reference: ITS-P23-001 NYS Office of Information Technology Services Empire State Plaza P.O. Box 2062 Albany, NY 12220
+
+      **Email: CTO@its@ny.gov
+
+      Telephone: 518-402-7000
+
+      Statewide technology policies, standards, and guidelines may be found at the following website: https://its.ny.gov/policies
+    questions_and_answers:
+      - question: |
+          Who can I email if I have a question about ITS policies and standards for technology use?
+        answer: >
+          You can email CTO@its@ny.gov for any questions about ITS policies and standards for technology use.
+      - question: |
+          Where can I find policies, standards, and guidelines for New York State technology policies?
+        answer: >
+          Statewide technology policies, standards, and guidelines may be found at the following website: https://its.ny.gov/policies
+      - question: |
+          What is the telephone number to submit inquiries and requests about ITS policies and standards?
+        answer: >
+          The number to call about requests and inquiries about ITS policies and standards is 518-402-7000.
+  - context: >
+      The New York State Office of Information Technology Services (ITS) policy on the surplus and disposal of ITS equipment, furniture, and vehicles.
+
+      ## 8.0 Revision History
+
+      This policy document should be reviewed consistent with the requirements set forth in NYS-P09- 003 Process for Establishing Information Technology Polices, Standards and Guidelines.
+
+
+      | Date       | Description of Change   | Reviewer   |
+      |------------|-------------------------|------------|
+      | 07/07/2004 | Original policy         | CIO/OFT    |
+      | 05/01/2006 | Format Only             | CIO/OFT    |
+
+
+      | Date       | Description of Change                                                          | Reviewer                      |
+      |------------|--------------------------------------------------------------------------------|-------------------------------|
+      | 09/06/2008 | Format Only (Originally PIB # ITS-17-P)                                        | CIO/OFT                       |
+      | 01/19/2011 | Revised to remove redundancies and  reference legal basis for surplus  program | CIO/OFT                       |
+      | 01/11/2012 | Revised to reflect new logo, policy  number (CIO-P04-005) and updated  forms   | CIO/OFT                       |
+      | 09/19/2012 | Revised - format/logo only                                                     | CIO/OFT                       |
+      | 11/14/2012 | Republished                                                                    | CIO/OFT                       |
+      | 7/31/2016  | Revised to update link and add  Appendix B                                     | CIO/OFT                       |
+      | 02/20/2018 | Revised                                                                        | Facilities and Mail  Services |
+      | 08/02/2021 | Revised to reflect current surplus and  disposal practices.                    | Facilities Services           |
+    questions_and_answers:
+      - question: >
+          What was the change made to the ITS policy on the surplus and disposal of equipment in January 2011?
+        answer: >
+          On January 19 2011, a revision was made to remove redundancies and reference legal basis for the surplus program.
+      - question: >
+          Who have been the reviewers on changes to the ITS policy for the disposal of equipment?
+        answer: >
+          The CIO/OFT and the Facilities and Mail Services have reviewed changes to this policy.
+      - question: >
+          When was the policy on the surplus and disposal of ITS equipment first created?
+        answer: >
+          The original policy on the surplus and disposal of ITS equipment was made on 07/07/2004.
+  - context: >
+      The New York State Office of Information Technology Services (ITS) policy on the surplus and disposal of ITS equipment, furniture, and vehicles.
+
+      | 11/14/2012 | Republished                                                                    | CIO/OFT                       |
+      | 7/31/2016  | Revised to update link and add  Appendix B                                     | CIO/OFT                       |
+      | 02/20/2018 | Revised                                                                        | Facilities and Mail  Services |
+      | 08/02/2021 | Revised to reflect current surplus and  disposal practices.                    | Facilities Services           |
+
+      ## 9.0 Related Documents
+
+      ITSM ServiceNow Surplus/LDA Service Request
+
+      Report of Surplus Personal Property (CS-201) Form
+
+      Report of Surplus Motor Vehicles and Motorized Equipment (CS-201.1) Form
+
+      NYS-S13-003 Sanitization/Secure Disposal
+
+      ITS-S18-001 Fleet Management Usage
+    questions_and_answers:
+      - question: >
+          What are documents related to the ITS policy on surplus and disposal of equipment?
+        answer: >
+          Documents related this policy include the ITSM ServiceNow Surplus/LDA Service Request, Report of Surplus Personal Property (CS-201) Form, Report of Surplus Motor Vehicles and Motorized Equipment (CS-201.1) Form, NYS-S13-003 Sanitization/Secure Disposal, ITS-S18-001 Fleet Management Usage
+      - question: >
+          Which forms are related to the ITS policy on surplus and disposal of equipment?
+        answer: >
+          The forms related to this policy are the Report of Surplus Personal Property (CS-201) Form and the Report of Surplus Motor Vehicles and Motorized Equipment (CS-201.1) Form
+      - question: >
+          Are there documents related to the ITS policy on surplus and disposal of equipment?
+        answer: >
+          Yes there are documents related to the policy on the surplus and disposal of ITS equipment.
+document:
+  repo: 'https://github.com/ibmdataworks/mc-rules'
+  commit: ac9a5936211dd64acb0c11130f3f8ddb2398104a
+  patterns:
+    - 'eligibility.md'
