@@ -1,7 +1,0 @@
-Additionally, the Capital Plan makes references to "off-budget" spending, which refers to capital spending that is occurring directly from bond proceeds held at public authorities. Off-budget spending requires an enacted appropriation, bonding authorization, and PACB approval to occur. However, in an effort to streamline all State capital spending within the Capital Plan, the State is converting all such spending to "on-budget" spending. This transition began in FY 2015 with the conversion of the local highway transportation program and the only remaining off-budget spending is for SED's EXCEL program.
-
-## **Reporting on State Debt**
-
-The Capital Plan provides information on State-supported debt and the broader measure of Staterelated debt:
-
-State-supported debt represents bonds or notes of the State that are paid from traditional State resources (e.g., tax revenue) and have a budgetary impact. It includes both General Obligation debt approved directly by the voters, and debt authorized by the Legislature, acting on behalf of the people, and issued on behalf of the State by public authorities, where the State is contractually obligated to pay debt service, subject to appropriation. All debt authorized by the Legislature must be approved by PACB, and the board of the issuing authority, with the exception of General Obligation Bonds. The State's debt reform caps on debt outstanding and debt service apply to State-supported debt except for FY 2021 and FY 2022 when the caps were suspended.

@@ -1,9 +1,0 @@
-However, the Agency may collect or disclose personal information without the consent of the user if the collection or disclosure is: (1) necessary to perform the statutory duties of the Agency, or necessary for the Agency to operate a program authorized by law, or authorized by state or federal statute or regulation; (2) made pursuant to a court order or by law; (3) for the purpose of validating the identity of the user; or (4) of information to be used solely for statistical purposes that is in a form that cannot be used to identify any particular person.
-
-Disclosure of information, including personal information, collected through this website is subject to the provisions of the New York State Freedom of Information Law and the New York State Personal Privacy Protection Law.
-
-The Agency may disclose personal information to federal or state law enforcement authorities to enforce its rights against unauthorized access or attempted unauthorized access to the Agency's information technology assets or against other inappropriate use of this website."
-
-## **4.4.4 How long will the information collected be retained?**
-
-Indicate what types of information collected through the State Agency Website will be retained by the SE and describe, in general terms, the retention periods for those types of information. The statement should indicate whether the SE has established any records retention and disposition schedules for information collected through the website which vary from the General Retention and Disposition Schedule for New York State Government Records issued by the State Archives and Records Administration pursuant to the Arts and Cultural Affairs Law. For example:
