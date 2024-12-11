@@ -143,7 +143,7 @@ seed_examples:
         answer: |
           The total projected appropriation on programs for people with developmental disabilities in FY 2026 is 321,121 (thousands of dollars).
 document:
-  repo: 'file:///home/cloud-user/ny-state-poc'
-  commit: 70e47897b5d5bb359504618fa33a83110e87f5f8
+  repo: 'https://github.com/cfchase/ny-state-poc.git'
+  commit: 204838276df29fd79c7cf2d6437d95e76118ee01
   patterns:
-    - 'data_preparation/output/ny_budget/md/*.md'
+    - 'data_preparation/document_collection/ny_budget/fy25cp-en.pdf'

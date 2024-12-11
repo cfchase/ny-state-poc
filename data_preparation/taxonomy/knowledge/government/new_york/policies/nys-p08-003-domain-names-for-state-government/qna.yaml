@@ -271,7 +271,7 @@ seed_examples:
         answer: >
           Yes there are documents related to the policy on the surplus and disposal of ITS equipment.
 document:
-  repo: 'https://github.com/ibmdataworks/mc-rules'
-  commit: ac9a5936211dd64acb0c11130f3f8ddb2398104a
+  repo: 'https://github.com/cfchase/ny-state-poc.git'
+  commit: 204838276df29fd79c7cf2d6437d95e76118ee01
   patterns:
-    - 'eligibility.md'
+    - 'data_preparation/document_collection/ny_policies/nys-p08-003-domain-names-for-state-government/nys-p08-003-domain-names-for-state-government.pdf'
