@@ -1,7 +1,7 @@
 langchain-text-splitters
 datasets
 rich
-docling[tesserocr]~=2.5.2
+docling[tesserocr]~=2.8.3
 click>=8.1.7,<9.0.0
 tabulate
 transformers
