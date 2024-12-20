@@ -178,6 +178,6 @@ seed_examples:
           The Acceptable Use of Articial Intelligence Technologies, NYS-P24-001, is an NYS IT policy.
 document:
   repo: 'https://github.com/cfchase/ny-state-poc.git'
-  commit: 204838276df29fd79c7cf2d6437d95e76118ee01
+  commit: 13400be55bc92b9577d372d3e11194896860d0ff
   patterns:
     - 'data_preparation/document_collection/ny_policies/nys-p08-003-domain-names-for-state-government/nys-p08-003-domain-names-for-state-government.pdf'

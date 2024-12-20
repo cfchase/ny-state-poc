@@ -272,6 +272,6 @@ seed_examples:
           Yes there are documents related to the policy on the surplus and disposal of ITS equipment.
 document:
   repo: 'https://github.com/cfchase/ny-state-poc.git'
-  commit: 204838276df29fd79c7cf2d6437d95e76118ee01
+  commit: 13400be55bc92b9577d372d3e11194896860d0ff
   patterns:
     - 'data_preparation/document_collection/ny_policies/its-p10-003-its-telecommuting-policy/its-p10-003-its-telecommuting-policy.pdf'
