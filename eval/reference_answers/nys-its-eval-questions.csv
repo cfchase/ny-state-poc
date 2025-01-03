@@ -1,4 +1,4 @@
-Question,Ground Truth,Source Document:
+user_input,reference,source_document
 Is there a centralized ITS warehouse to store equipments?,No there is not a centralized ITS warehouse to store eqipment. Business units are responsible for storing items.,https://github.com/cfchase/ny-state-poc/blob/main/data_preparation/document_collection/ny_policies/its-p04-005-surplus-and-disposal-of-its-equipment-furniture-and-vehicles/its-p04-005-surplus-and-disposal-of-its-equipment-furniture-and-vehicles.pdf
 Who determines that a state vehicle should be removed from service?,A business unit determines that a state vehicle should be removed from service.,https://github.com/cfchase/ny-state-poc/blob/main/data_preparation/document_collection/ny_policies/its-p04-005-surplus-and-disposal-of-its-equipment-furniture-and-vehicles/its-p04-005-surplus-and-disposal-of-its-equipment-furniture-and-vehicles.pdf
 What happens if ITS Facilities Services determines that a vehicle will be suplused?,"All decals, etc., except for inspection and registration stickers, must be removed and the vehicle cleaned inside and out. The vehicle is to be transported to the Swan Street location if the normal
