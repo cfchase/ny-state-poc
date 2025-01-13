@@ -1,22 +1,43 @@
 # # SPDX-License-Identifier: Apache-2.0
 # Standard
 from pathlib import Path
-from typing import List, Optional, TypedDict
+from typing import TYPE_CHECKING, List, Optional, TypedDict
 
 # Third Party
 from langchain_community.chat_models import ChatOpenAI
+from openai import Client as OpenAIClient
+from openai.types.chat import ChatCompletionMessageParam
 from pandas import DataFrame, read_json
-from pydantic import BaseModel, ConfigDict, field_validator
+from pydantic import BaseModel, ConfigDict, Field
 from ragas.evaluation import EvaluationDataset, EvaluationResult, RunConfig, evaluate
 from ragas.metrics import Metric
 from ragas.metrics._domain_specific_rubrics import (  # the rubrics we must instantiate are located inside of a file marked as private
-    DEFAULT_WITH_REFERENCE_RUBRICS,
     RubricsScore,
+    SingleTurnPrompt,
 )
 
 # Local
 from instructlab.eval.evaluator import Evaluator
-from instructlab.eval.mt_bench_common import get_openai_client
+from instructlab.eval.logger_config import setup_logger
+
+logger = setup_logger(__name__)
+
+RUBRIC = """You are an evaluation system tasked with assessing the answer quality of a AI generated response in relation to the posed question and reference answer. Assess if the response is correct, accurate, and factual based on the reference answer.
+    For evaluating factuality of the answer look at the reference answer compare the model answer to it.
+    Evaluate the answer_quality as:
+    - Score 1: The response is completely incorrect, inaccurate, and/or not factual.
+    - Score 2: The response is mostly incorrect, inaccurate, and/or not factual.
+    - Score 3: The response is somewhat correct, accurate, and/or factual.
+    - Score 4: The response is mostly correct, accurate, and factual.
+    - Score 5: The response is completely correct, accurate, and factual.
+    Here is the question: \n ------- \n {user_input} \n -------
+    Here is model answer: \n ------- \n {response} \n -------
+    Here is the reference answer(may be very short and lack details or indirect, long and extractive):  \n ------- \n {reference} \n ------- \n
+    Assess the quality of model answer with respect to the Reference Answer, but do not penalize the model answer for adding details or give a direct answer to user question.
+    Approach your evaluation in step-by-step manner.
+    For evaluating first list out keys facts covered in the reference answer and check how many are covered by the model answer.
+    If the question or reference answer is about steps then check if the steps and their order in model answer match with reference answer.
+    Provide your response as JSON object with two keys: 'reasoning' and 'answer_quality'."""
 
 
 class Sample(TypedDict):
@@ -49,21 +70,14 @@ DEFAULT_JUDGE_MODEL = "gpt-4o"
 class ModelConfig(BaseModel):
     model_config = ConfigDict(protected_namespaces=())
 
-    # URL of the OpenAI server where the model shall be hosted.
-    base_url: str
-
     # name of the model to use.
     model_name: str
 
     # The system prompt to be used when applying the chat template.
     system_prompt: str = _DEFAULT_SYSTEM_PROMPT
 
-    # We do NOT read from OPENAI_API_KEY for the student model for security reasons (e.g. sending the API key to another client)
-    # To provide an OpenAI key, you must set it here; else the default is used.
-    api_key: str = "no-api-key"
-
     # "model randomness" aka likelihood of sampling something other than the likeliest token
-    temperature: float = 0.0
+    temperature: float = Field(default=0.0, le=1.0, ge=0.0)
 
     # Max amount of tokens to generate.
     max_tokens: int = 768
@@ -71,31 +85,51 @@ class ModelConfig(BaseModel):
     # Random seed for reproducibility. Caution: this isn't supported by all model serving runtimes.
     seed: int = DEFAULT_SEED
 
-    @field_validator("temperature")
-    @classmethod
-    def check_temperature(cls, v: float) -> float:
-        if not 0.0 <= v <= 1.0:
-            raise ValueError("temperature must be between 0.0 and 1.0")
-        return v
-
 
 class RagasEvaluator(Evaluator):
     # most basic implementation, we just assume that the user will bring the existing model responses
     name = "ragas"
 
     def __init__(
-        self,
-        student_model: ModelConfig | None = None,
-        run_config: RunConfig | None = None,
+            self,
+            student_model: ModelConfig | None = None,
+            run_config: RunConfig | None = None,
+            student_openai_client: OpenAIClient | None = None,
+            judge_model_name: str = DEFAULT_JUDGE_MODEL,
+            judge_openai_api_key: str | None = None,
     ):
         self.student_model = student_model
         self.run_config = run_config
+        self.student_openai_client = student_openai_client
+        self.judge_model_name = judge_model_name
+        self.judge_openai_api_key = judge_openai_api_key
+
+    @staticmethod
+    def _validate_dataset(df: DataFrame):
+        """
+        Validates whether or not the given `df` is a valid dataset of `Sample` objects.
+
+        Args:
+            df (DataFrame): DataFrame containing the dataset to be evaluated.
+        """
+        # We have to hardcode these fields because the automated way of resolving the required fields from a TypedDict
+        # is only included by default in Python3.11+. For earlier versions, the `typing_extensions` package is required.
+        # See: https://docs.python.org/3/whatsnew/3.11.html#pep-655-marking-individual-typeddict-items-as-required-or-not-required
+        required_keys = {"user_input", "reference"}
+        missing_keys = required_keys - set(df.columns)
+        if missing_keys:
+            raise ValueError(
+                f"invalid dataset provided, missing the following keys: {', '.join(missing_keys)}"
+            )
 
     def run(
-        self,
-        dataset: List[Sample] | Path,
-        student_model: ModelConfig | None = None,
-        run_config: RunConfig | None = None,
+            self,
+            dataset: List[Sample] | Path,
+            student_model: ModelConfig | None = None,
+            run_config: RunConfig | None = None,
+            student_openai_client: OpenAIClient | None = None,
+            judge_model_name: str | None = None,
+            judge_openai_api_key: str | None = None,
     ) -> EvaluationResult:
         """
         Evaluates the quality of model responses against a graded rubric.
@@ -115,17 +149,31 @@ class RagasEvaluator(Evaluator):
                 a default one is created containing extremely permissive settings when handling
                 timeouts. This is because by default, OpenAI tier-1 usage accounts have very high
                 rate limits resulting in heavy throttling during evaluations.
+            student_openai_client (openai.Client | None, optional):
+                The client to use when generating questions from the student model, must be compatible with the OpenAI API.
+                This field is required when `student_model` is provided.
+            judge_model_name (str | None, optional):
+                Name of the OpenAI model to use as the judge model. Defaults to "gpt-4o" when none is specified.
+            judge_openai_api_key (str | None, optional):
+                The API key to use for evaluating the given dataset. When this isn't provided, `OPENAI_API_KEY` is read instead.
+
 
         Returns:
             EvaluationResult: The results of all evaluations performed by Ragas
         """
+        judge_model_name = (
+            judge_model_name if judge_model_name else self.judge_model_name
+        )
+        judge_openai_api_key = (
+            judge_openai_api_key if judge_openai_api_key else self.judge_openai_api_key
+        )
         student_model = student_model if student_model else self.student_model
         run_config = run_config if run_config else self.run_config
-
-        if not dataset:
-            raise ValueError(
-                "no dataset was provided, please specify the `dataset` argument"
-            )
+        student_openai_client = (
+            student_openai_client
+            if student_openai_client
+            else self.student_openai_client
+        )
 
         # ensure we are in the dataframe format
         input_df = None
@@ -137,17 +185,31 @@ class RagasEvaluator(Evaluator):
             raise TypeError(f"invalid type of dataset: {type(dataset)}")
 
         # this should never happen, but pylint is not smart enough to detect it
-        assert input_df is not None
+        if TYPE_CHECKING:
+            assert input_df is not None
+
+        # ensure the dataset is in the format we expect it
+        self._validate_dataset(input_df)
 
         need_to_generate_questions = "response" not in input_df.columns
-        if need_to_generate_questions and not student_model:
-            raise ValueError(
-                "provided dataset doesn't contain the model `response`, but no `student_model` was provided for inference"
+        if need_to_generate_questions:
+            logger.debug(
+                "`response` is missing in the input dataframe columns, generating questions from the model is required."
             )
+            if not student_model or not student_openai_client:
+                raise ValueError(
+                    "provided dataset doesn't contain the model `response`, but either `student_model` or `student_openai_client` wasn't provided for inference"
+                )
 
         # if the student model was provided then we always generate regardless
         if student_model:
-            input_df = self._generate_answers_from_model(input_df, student_model)
+            if not student_openai_client:
+                raise ValueError(
+                    "`student_model` was specified but `student_openai_client` was not provided"
+                )
+            input_df = self._generate_answers_from_model(
+                input_df, student_model, student_openai_client
+            )
 
         if not run_config:
             # we set extreme timeout/retry values by default since OpenAI tier-1 rate limits
@@ -164,7 +226,8 @@ class RagasEvaluator(Evaluator):
 
         # we will be using gpt-4o for the foreseeable future, we hardcode this
         # for consistency of answers
-        critic_lm = ChatOpenAI(model=DEFAULT_JUDGE_MODEL)
+
+        critic_lm = ChatOpenAI(model=judge_model_name, api_key=judge_openai_api_key)
         results = evaluate(
             dataset=evaluation_ds,
             batch_size=4,
@@ -176,27 +239,28 @@ class RagasEvaluator(Evaluator):
         return results
 
     def _generate_answers_from_model(
-        self, questions: DataFrame, student_model: ModelConfig
+            self,
+            questions: DataFrame,
+            student_model: ModelConfig,
+            student_openai_client: OpenAIClient,
     ) -> DataFrame:
         """
         Given a DataFrame containing `user_input` columns, generates responses from the given model
         and returns a new DataFrame containing its answers in the `response` column.
         """
-
-        client = get_openai_client(
-            model_api_base=student_model.base_url, api_key=student_model.api_key
-        )
-
         # initialize response to write into
         updated_df = questions.copy()
         updated_df["response"] = ""
 
         for i, qna in updated_df.iterrows():
-            messages = [
-                {"role": "system", "content": student_model.system_prompt},
+            messages: List[ChatCompletionMessageParam] = [
+                {
+                    "role": "system",
+                    "content": student_model.system_prompt,
+                },
                 {"role": "user", "content": qna["user_input"]},
             ]
-            response = client.chat.completions.create(
+            response = student_openai_client.chat.completions.create(
                 messages=messages,
                 model=student_model.model_name,
                 # specify the seed so we can at least try to have some reproducibility when the clients support it
@@ -207,10 +271,13 @@ class RagasEvaluator(Evaluator):
             updated_df.at[i, "response"] = response.choices[0].message.content
         return updated_df
 
-    def _get_metrics(self) -> List[Metric]:
+    @staticmethod
+    def _get_metrics() -> List[Metric]:
         # default set of metrics
+        st_prompt = SingleTurnPrompt()
+        st_prompt.instruction = RUBRIC
         return [
             RubricsScore(
-                rubrics=DEFAULT_WITH_REFERENCE_RUBRICS,
+                single_turn_prompt=st_prompt,
             )
         ]
