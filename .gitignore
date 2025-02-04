@@ -1,4 +1,4 @@
-.env
+.env.*
 eval/llm_config.yaml
 eval/.milvus_llm_judge_eval.db.lock
 eval/milvus_llm_judge_eval.db

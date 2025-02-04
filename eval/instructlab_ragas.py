@@ -11,10 +11,7 @@ from pandas import DataFrame, read_json
 from pydantic import BaseModel, ConfigDict, Field
 from ragas.evaluation import EvaluationDataset, EvaluationResult, RunConfig, evaluate
 from ragas.metrics import Metric
-from ragas.metrics._domain_specific_rubrics import (  # the rubrics we must instantiate are located inside of a file marked as private
-    RubricsScore,
-    SingleTurnPrompt,
-)
+from ragas.metrics._domain_specific_rubrics import RubricsScore
 
 # Local
 from instructlab.eval.evaluator import Evaluator
@@ -22,22 +19,15 @@ from instructlab.eval.logger_config import setup_logger
 
 logger = setup_logger(__name__)
 
-RUBRIC = """You are an evaluation system tasked with assessing the answer quality of a AI generated response in relation to the posed question and reference answer. Assess if the response is correct, accurate, and factual based on the reference answer.
-    For evaluating factuality of the answer look at the reference answer compare the model answer to it.
-    Evaluate the answer_quality as:
-    - Score 1: The response is completely incorrect, inaccurate, and/or not factual.
-    - Score 2: The response is mostly incorrect, inaccurate, and/or not factual.
-    - Score 3: The response is somewhat correct, accurate, and/or factual.
-    - Score 4: The response is mostly correct, accurate, and factual.
-    - Score 5: The response is completely correct, accurate, and factual.
-    Here is the question: \n ------- \n {user_input} \n -------
-    Here is model answer: \n ------- \n {response} \n -------
-    Here is the reference answer(may be very short and lack details or indirect, long and extractive):  \n ------- \n {reference} \n ------- \n
-    Assess the quality of model answer with respect to the Reference Answer, but do not penalize the model answer for adding details or give a direct answer to user question.
-    Approach your evaluation in step-by-step manner.
-    For evaluating first list out keys facts covered in the reference answer and check how many are covered by the model answer.
-    If the question or reference answer is about steps then check if the steps and their order in model answer match with reference answer.
-    Provide your response as JSON object with two keys: 'reasoning' and 'answer_quality'."""
+# DEFAULT_WITH_REFERENCE_RUBRICS from ragas v0.2.11.
+# This rubric is hardcoded in case ragas makes any changes to their DEFAULT_WITH_REFERENCE_RUBRICS in the future
+SCORING_RUBRICS = {
+    "score1_description": "The response is entirely incorrect, irrelevant, or does not align with the reference in any meaningful way.",
+    "score2_description": "The response partially matches the reference but contains major errors, significant omissions, or irrelevant information.",
+    "score3_description": "The response aligns with the reference overall but lacks sufficient detail, clarity, or contains minor inaccuracies.",
+    "score4_description": "The response is mostly accurate, aligns closely with the reference, and contains only minor issues or omissions.",
+    "score5_description": "The response is fully accurate, completely aligns with the reference, and is clear, thorough, and detailed.",
+}
 
 
 class Sample(TypedDict):
@@ -273,11 +263,8 @@ class RagasEvaluator(Evaluator):
 
     @staticmethod
     def _get_metrics() -> List[Metric]:
-        # default set of metrics
-        st_prompt = SingleTurnPrompt()
-        st_prompt.instruction = RUBRIC
         return [
             RubricsScore(
-                single_turn_prompt=st_prompt,
+                rubrics=SCORING_RUBRICS,
             )
         ]
