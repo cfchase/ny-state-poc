@@ -73,9 +73,7 @@ Statewide technology policies, standards, and guidelines may be found at the fol
 
 This policy should be reviewed consistent with the requirements set forth in NYS-P09003 Process for Establishing Information Technology Polices, Standards and Guidelines.
 
-| Date       | Description of Change   | Reviewer                 |
-|------------|-------------------------|--------------------------|
-| 03/25/2020 | Issued policy           | Chief Technology  Office |
+Skipping table for testing - cfchase
 
 ## 9.0 Related Documents
 
